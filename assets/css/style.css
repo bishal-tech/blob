@@ -43,7 +43,7 @@ h2 {
     font-size: 36px;
     font-weight: 500;
     letter-spacing: 0em;
-    text-align: left;
+  
 
 }
 
@@ -51,7 +51,7 @@ h3 {
     font-size: 26px;
     font-weight: 500;
     letter-spacing: 0em;
-    text-align: left;
+ 
 
 }
 
@@ -125,7 +125,7 @@ header {
 
 .navbar-nav li a {
     color: var(--white);
-    font-size: 26px;
+    font-size: 20px;
 }
 
 .navbar-nav li a:hover,
@@ -268,7 +268,7 @@ header {
 
 /* Contact section is here */
 
-.contact-form{
+.contact-form {
     max-width: 400px;
     margin: auto;
 }
@@ -280,15 +280,79 @@ header {
     padding: 10px;
     border-radius: 10px;
 }
-.form-group .form-control{
+
+.form-group .form-control {
     border: 1px solid #fff !important;
 }
 
+
+.scribe-box {
+    padding: 20px 50px;
+    border-radius: 15px;
+    margin-top: -140px;
+    text-align: center;
+}
+
+.scribe-box form {
+    margin: auto;
+    width: 450px;
+    display: flex;
+    border-radius: 30px;
+    pad: 10px 35px;
+    border-radius: 30px 0 30px 0;
+    border: 1px solid var(--ligthgrey);
+    background-color: var(--white);
+
+}
+
+.scribe-box form input {
+    /* background-color: #00B8CF; */
+    border-radius: 30px 0 30px 0;
+    padding: 10px 30px;
+    border: none;
+
+}
+
+.scribe-box form button {
+    background-color: var(--sky);
+    color: var(--white);
+    border-radius: 30px 0 30px 0;
+    padding: 10px 30px;
+    transition: all 0.3s linear;
+}
+
+.scribe-box form button:hover {
+    background-color: #0ba3b7;
+    transition: all 0.3s linear;
+
+}
+
+
 /* Footer section is here */
 
-footer h3{
+footer h3 {
     color: var(--dark);
 }
-footer li a{
+
+footer li a {
     color: var(--grey);
+}
+
+.social-icons {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    font-size: 25px;
+}
+
+.social-icons a {
+    color: var(--grey);
+    transition: all 0.3s linear;
+}
+
+.social-icons a:hover {
+    transition: all 0.3s linear;
+    color: var(--sky);
 }
