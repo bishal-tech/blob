@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ionicons/7.1.2/esm/ionicons.min.js"></script>
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>BLOB</title>
@@ -14,10 +16,11 @@
 
 <body>
 
+    <!-- Header section starts here  -->
     <header>
 
         <nav class="navbar navbar-expand-lg ">
-            <div class="container-fluid">
+            <div class="container">
                 <a class="navbar-brand" href="#">
                     <img src="./assets/img/lgo.png" alt="BLOB">
                 </a>
@@ -68,8 +71,8 @@
         </nav>
     </header>
 
+    <!-- Banner section starts here  -->
     <section class="banner-sec">
-
         <div class="banner-content text-center">
             <p>Co Working | Co Payling | Co Learning</p>
             <h1>A <span class="purplr-text"><b>space</b></span> where you <br> can live <span
@@ -77,13 +80,161 @@
             <a class="cta-btn1" href="#">Get in tuch</a>
         </div>
         <div class="overlay"></div>
+    </section>
+
+    <!-- Gallery section starts here  -->
+    <section class="py-5">
+
+        <div id="gallery_slider1" class="gallery-slider-1">
+            <div class="gallery-slide">
+                <img class="img-fluid" src="./assets/img/gallery/Mask group.png" alt="">
+            </div>
+            <div class="gallery-slide">
+                <img class="img-fluid" src="./assets/img/gallery/Rectangle 4.png" alt="">
+            </div>
+            <div class="gallery-slide">
+                <img class="img-fluid" src="./assets/img/gallery/Rectangle 44.png" alt="">
+            </div>
+            <div class="gallery-slide">
+                <img class="img-fluid" src="./assets/img/gallery/Rectangle 5.png" alt="">
+            </div>
+            <div class="gallery-slide">
+                <img class="img-fluid" src="./assets/img/gallery/Rectangle 6.png" alt="">
+            </div>
+            <div class="gallery-slide">
+                <img class="img-fluid" src="./assets/img/gallery/Rectangle 7.png" alt="">
+            </div>
+        </div>
+        <div id="gallery_slider2" class="gallery-slider-1" dir="rtl">
+            <div class="gallery-slide">
+                <img class="img-fluid" src="./assets/img/gallery/Mask group.png" alt="">
+            </div>
+            <div class="gallery-slide">
+                <img class="img-fluid" src="./assets/img/gallery/Rectangle 4.png" alt="">
+            </div>
+            <div class="gallery-slide">
+                <img class="img-fluid" src="./assets/img/gallery/Rectangle 44.png" alt="">
+            </div>
+            <div class="gallery-slide">
+                <img class="img-fluid" src="./assets/img/gallery/Rectangle 5.png" alt="">
+            </div>
+            <div class="gallery-slide">
+                <img class="img-fluid" src="./assets/img/gallery/Rectangle 6.png" alt="">
+            </div>
+            <div class="gallery-slide">
+                <img class="img-fluid" src="./assets/img/gallery/Rectangle 7.png" alt="">
+            </div>
+        </div>
 
     </section>
 
 
+    <!-- Disrapting section start here  -->
+    <section>
+        <div class="container py-5">
+            <div class="col-md-6 col-sm-12">
+                <h2><span class="purplr-text">Disrupting</span> 9 to 5</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus laudantium modi placeat.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit praesentium molestiae accusamus debitis
+                    quasi. Vitae possimus et eius recusandae magni? Rerum, sed. Explicabo!</p>
+            </div>
+            <div class="col-md-6 col-sm-12">
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Community section start here  -->
+    <section class="bg-light">
+        <div class="container py-5">
+            <h2 class="text-center">A Powerfull <span class="red-text">Community</span></h2>
+            <div class="row py-5">
+                <div class="col-md-2 col-sm-4">
+                    <div class="comunnity">
+                        <img class="img-fluid" src="./assets/img/community/Rectangle 22.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-4">
+                    <div class="comunnity">
+                        <img class="img-fluid" src="./assets/img/community/Rectangle 23.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-4">
+                    <div class="comunnity">
+                        <img class="img-fluid" src="./assets/img/community/Rectangle 24.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-4">
+                    <div class="comunnity">
+                        <img class="img-fluid" src="./assets/img/community/Rectangle 25.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-4">
+                    <div class="comunnity">
+                        <img class="img-fluid" src="./assets/img/community/Rectangle 26.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-4">
+                    <div class="comunnity">
+                        <img class="img-fluid" src="./assets/img/community/Rectangle 27.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- community word section is here  -->
+            <h2 class="">Words of our <span class="text-info">Community</span></h2>
+            <div class="review-sec d-flex align-items-start py-5">
+                <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+
+                    <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill"
+                        data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home"
+                        aria-selected="true">
+
+                        <div class="review-btn">
+                            <img src="./assets/img/community/Ellipse 5.png" alt="">
+                            <p>Sima Debsharma</p>
+                        </div>
+                    </button>
+                    <!-- <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill"
+                        data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile"
+                        aria-selected="false">Profile</button>
+                    <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill"
+                        data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages"
+                        aria-selected="false">Messages</button>
+                    <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill"
+                        data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings"
+                        aria-selected="false">Settings</button> -->
+                </div>
+                <div class="tab-content" id="v-pills-tabContent">
+                    <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
+                        aria-labelledby="v-pills-home-tab">
+                        <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus sapiente porro in!</h3>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, neque officiis. Vel aliquam
+                            minima animi laboriosam at suscipit repellat tempore ratione maiores quis!</p>
+                    </div>
+                    <!-- <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
+                        aria-labelledby="v-pills-profile-tab">...</div>
+                    <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
+                        aria-labelledby="v-pills-messages-tab">...</div>
+                    <div class="tab-pane fade" id="v-pills-settings" role="tabpanel"
+                        aria-labelledby="v-pills-settings-tab">...</div> -->
+                </div>
+            </div>
+
+        </div>
+    </section>
+
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="./assets/js/script.js"></script>
 </body>
 
 </html>

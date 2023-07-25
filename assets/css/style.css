@@ -42,7 +42,14 @@ h1 {
 h2 {
     font-size: 36px;
     font-weight: 500;
-    line-height: 52px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+h3 {
+    font-size: 26px;
+    font-weight: 500;
     letter-spacing: 0em;
     text-align: left;
 
@@ -170,4 +177,64 @@ header {
 
 .banner-content {
     z-index: 3;
+}
+
+
+/* Gallery section style start here  */
+.gallery-slider-1 {
+    display: flex;
+    gap: 10px;
+    /* padding: 0px 20px; */
+}
+
+.gallery-slide {
+    padding: 10px;
+
+}
+
+.gallery-slide img {
+    border-radius: 30px;
+    max-height: 300px;
+}
+
+.comunnity {
+    height: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.comunnity img {
+    max-height: 70px;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background-color: var(--white);
+    border-radius: 10px;
+    color: var(--dark);
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.10);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.10);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.10);
+
+}
+
+.review-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 310px;
+}
+
+.tab-pane {
+    padding: 20px;
+}
+
+.tab-pane h3 {
+    color: var(--dark);
+}
+.checked{
+    color: gold;
 }
