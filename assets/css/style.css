@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --white: #fff;
+    --dark: #000;
+    --grey: #6A6A6A;
+    --ligthgrey: #D8D8D8;
+    --purple: #c070ff;
+    --yellow: #fdb617;
+    --red: #EA455F;
+}
+
+body {
+    background-color: #fff;
+    color: #6A6A6A;
+}
