@@ -14,9 +14,160 @@
     --purple: #c070ff;
     --yellow: #fdb617;
     --red: #EA455F;
+    --sky: #00B8CF;
 }
 
 body {
     background-color: #fff;
     color: #6A6A6A;
+    font-family: 'Jost', sans-serif;
+}
+
+h1 {
+    font-family: Jost;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 101px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 101px;
+    letter-spacing: 0em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 52px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+p {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+
+}
+
+a {
+    text-decoration: none;
+    color: var(--dark);
+}
+
+li {
+    list-style: none;
+    /* margin-left: -20px; */
+}
+
+/* custom classes is here  */
+
+.red-text {
+    color: var(--red);
+}
+
+.purplr-text {
+    color: var(--purple);
+}
+
+.yellow-text {
+    color: var(--yellow);
+}
+
+.sky-text {
+    color: var(--sky);
+}
+
+.cta-btn1 {
+    padding: 10px 25px;
+    border-radius: 20px;
+    background-color: var(--yellow);
+    text-transform: uppercase;
+    background-color: var(--yellow);
+    color: var(--white);
+    transition: all 0.3s linear;
+}
+
+.cta-btn1:hover {
+    background-color: #e6a312;
+    color: var(--white);
+    transition: all 0.3s linear;
+
+}
+
+/* Header style start here  */
+header {
+    z-index: 1;
+}
+
+.navbar-nav {
+    gap: 20px;
+}
+
+.navbar-nav li a {
+    color: var(--white);
+    font-size: 26px;
+}
+
+.navbar-nav li a:hover,
+.navbar-nav li a:focus {
+    color: var(--purple);
+}
+
+.navbar-nav .active {
+    color: var(--purple);
+    /* border-bottom: 2ps solid var(--purple); */
+
+}
+
+
+.dropdown-menu {
+    background-color: #ffffff63;
+    border-radius: 10px;
+    padding: 0px;
+}
+
+.dropdown-item:hover {
+    border-radius: 10px;
+    background-color: #ffffff63;
+    color: var(--white) !important;
+}
+
+
+/* Banner secton style start here  */
+.banner-sec {
+    margin-top: -110px;
+    background-image: url(../img/banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: var(--white);
+    min-height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    z-index: -3;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--dark);
+    opacity: 0.5;
+    z-index: -2;
+
+}
+
+.banner-content {
+    z-index: 3;
 }
