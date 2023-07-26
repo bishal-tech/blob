@@ -287,37 +287,32 @@ header {
 
 
 .scribe-box {
-    padding: 20px 50px;
+    /* padding: 20px 50px;
     border-radius: 15px;
     margin-top: -140px;
-    text-align: center;
+    text-align: center; */
 }
 
 .scribe-box form {
     margin: auto;
-    width: 450px;
+    width: 100%;
     display: flex;
     border-radius: 30px;
-    pad: 10px 35px;
-    border-radius: 30px 0 30px 0;
     border: 1px solid var(--ligthgrey);
     background-color: var(--white);
 
 }
 
 .scribe-box form input {
-    /* background-color: #00B8CF; */
-    border-radius: 30px 0 30px 0;
-    padding: 10px 30px;
+    border-radius: 30px;
     border: none;
-
 }
 
 .scribe-box form button {
     background-color: var(--sky);
     color: var(--white);
-    border-radius: 30px 0 30px 0;
-    padding: 10px 30px;
+    border-radius: 0px 30px 30px 30px;
+    padding: 5px 20px;
     transition: all 0.3s linear;
 }
 
@@ -425,10 +420,11 @@ footer li a {
     -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.10);
     -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.10);
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.10);
-    border-radius: 10px ;
+    border-radius: 10px;
     padding: 20px;
     min-height: 302px;
 }
-.steps-box img{
+
+.steps-box img {
     max-width: 200px;
 }

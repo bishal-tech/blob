@@ -15,7 +15,7 @@ $(document).ready(function () {
           slidesToShow: 3,
           slidesToScroll: 1,
           infinite: true,
-          dots: true,
+          // dots: true,
         },
       },
       {
@@ -53,7 +53,7 @@ $(document).ready(function () {
           slidesToShow: 3,
           slidesToScroll: 1,
           infinite: true,
-          dots: true,
+          // dots: true,
         },
       },
       {
