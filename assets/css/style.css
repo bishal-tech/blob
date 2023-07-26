@@ -18,7 +18,7 @@
 }
 
 body {
-    background-color: #fff;
+    background-color: #ffffff;
     color: #6A6A6A;
     font-family: 'Jost', sans-serif;
 }
@@ -70,7 +70,7 @@ a {
 
 li {
     list-style: none;
-    margin-left: -20px;
+    /* margin-left: -20px; */
     margin-bottom: 10px;
 }
 
@@ -139,6 +139,12 @@ header {
 
 }
 
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
 
 .dropdown-menu {
     background-color: #ffffff63;
