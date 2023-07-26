@@ -43,7 +43,7 @@ h2 {
     font-size: 36px;
     font-weight: 500;
     letter-spacing: 0em;
-  
+
 
 }
 
@@ -51,7 +51,7 @@ h3 {
     font-size: 26px;
     font-weight: 500;
     letter-spacing: 0em;
- 
+
 
 }
 
@@ -143,7 +143,7 @@ header {
 .dropdown-menu {
     background-color: #ffffff63;
     border-radius: 10px;
-    padding: 0px;
+    padding: 0 0 0 20px;
 }
 
 .dropdown-item:hover {
@@ -355,4 +355,80 @@ footer li a {
 .social-icons a:hover {
     transition: all 0.3s linear;
     color: var(--sky);
+}
+
+
+
+/* -------------------------Co-Working Page style is here ----------------------- */
+
+/* banner section start here  */
+.coworking-servic-box {
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.10);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.10);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.10);
+    padding: 20px 20px 0px 20px;
+    border-radius: 10px;
+    width: 90%;
+    margin: auto;
+}
+
+.coworking-service-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.coworking-service-icon img {
+    max-width: 45px;
+}
+
+.coworking-service-icon p {
+    font-size: 16px;
+}
+
+
+/* Pricing section start here  */
+.pricing-slider {
+    display: flex;
+    padding: 30px 10px;
+    margin-left: 10%;
+}
+
+.priceing-slide {
+    /* background-color: #00B8CF; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.10);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.10);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.10);
+    border-radius: 10px 10px 0 0;
+}
+
+.priceing-slide-active .slick-current img {
+    /* filter: grayscale(0%) !important; */
+}
+
+.priceing-slide img {
+    border-radius: 10px 10px 0 0;
+    /* max-width: 280px; */
+    /* filter: grayscale(100%); */
+}
+
+/* Service Booking steps section start here  */
+.steps-box {
+    width: 100%;
+    text-align: center;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.10);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.10);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.10);
+    border-radius: 10px ;
+    padding: 20px;
+    min-height: 302px;
+}
+.steps-box img{
+    max-width: 200px;
 }
