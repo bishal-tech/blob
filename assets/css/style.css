@@ -43,8 +43,7 @@ h2 {
     font-size: 36px;
     font-weight: 500;
     letter-spacing: 0em;
-
-
+    color: var(--dark);
 }
 
 h3 {
@@ -125,7 +124,7 @@ header {
 
 .navbar.bg-dark {
     background-color: #343a40;
-    transition: all 0.3s linear;
+    transition: all 0.01s linear;
 
 }
 
@@ -155,7 +154,7 @@ header {
 .dropdown-menu {
     background-color: #ffffff63;
     border-radius: 10px;
-    padding: 0 0 0 20px;
+    /* padding: 0 0 0 20px; */
 }
 
 .dropdown-item:hover {
@@ -439,8 +438,50 @@ footer li a {
     border-radius: 10px;
     padding: 20px;
     min-height: 302px;
+    margin-bottom: 15px;
 }
 
 .steps-box img {
     max-width: 200px;
+}
+
+
+/* image slider section is here  */
+.big-gallery-slide {
+    text-align: center;
+}
+
+.accordion-flush .accordion-item .accordion-button {
+    border-radius: 30px;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.10);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.10);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.10);
+    border-radius: 10px;
+}
+
+.accordion-item {
+    margin-bottom: 15px;
+    border: none;
+}
+
+.accordion-button:not(.collapsed) {
+    color: var(--dark);
+    background-color: var(--white);
+}
+
+.accordion-body {
+    background-color: var(--purple);
+    color: var(--white);
+    border-radius: 0 0 20px 20px;
+    margin-top: -14px;
+    padding-top: 19px;
+}
+
+.accordion-flush .accordion-item .accordion-button {
+    border-radius: 20px;
+}
+
+.accordion-item:last-of-type .accordion-button.collapsed {
+    border-bottom-right-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
 }
