@@ -1,5 +1,8 @@
 $(document).ready(function () {
-  //   console.log("ready!");
+  
+  $(".navbar-toggler").on("click", function () {
+    $(".navbar").toggleClass("bg-dark");
+  });
 
   $("#gallery_slider1").slick({
     dots: false,
