@@ -115,6 +115,13 @@ button {
 .yellow-bg {
     background-color: var(--yellow);
 }
+.purple-bg {
+    background-color: var(--purple);
+}
+.red-bg {
+    background-color: var(--red);
+}
+
 
 .cta-btn1 {
     padding: 10px 25px;
@@ -524,7 +531,14 @@ footer li a {
 }
 
 
-/* inner page bg classesis here  */
+/* inner page common classes is here  */
+.inner-banner {
+    width: 100%;
+    height: 82vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .studio-bg {
     background-image: url(../img/studio.png);
@@ -537,22 +551,11 @@ footer li a {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .truf-bg {
     background-image: url(../img/truf.png);
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-
-/* studio page style is here  */
-
-
-.inner-banner {
-    width: 100%;
-    height: 82vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .play-btn {
@@ -593,7 +596,6 @@ footer li a {
 }
 
 
-/* Cafe page style is here  */
 .cafe-box {
     width: 80%;
     height: 400px;
@@ -609,4 +611,79 @@ footer li a {
 
 .cafe-box h2 {
     color: var(--white);
+}
+
+/* studio page style is here  */
+/* Cafe page style is here  */
+/* Truf page style is here  */
+
+/* About page style is here  */
+.founder-sec {
+    margin-top: -10rem;
+}
+
+.about-bg {
+    background-image: url(../img/aboutpage/about-page-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.founder-img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.founder-img img {
+    position: absolute;
+    bottom: 0;
+    left: -12px;
+    /* margin-left: -12px;
+    margin-top: -265px; */
+}
+
+.yt-video iframe {
+    width: 80%;
+    height: 400px;
+}
+
+.number-counter {
+    text-align: center;
+
+}
+
+.contact-page-sec {
+    position: relative;
+    margin-top: -20rem;
+    padding: 4rem 0rem 4rem 4rem;
+    border-radius: 4px;
+
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.10);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.10);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.10);
+}
+
+.social-icon-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+
+    position: absolute;
+    bottom: 10%;
+    left: -20px;
+}
+
+.social-icon-box a {
+    /* background-color: var(--white); */
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.10);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.10);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.10);
 }
