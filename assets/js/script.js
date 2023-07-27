@@ -1,9 +1,34 @@
 $(document).ready(function () {
-  
-  $(".navbar-toggler").on("click", function () {
-    $(".navbar").toggleClass("bg-dark");
-  });
+  // header color function
+  function setHeaderColor() {
+    const header = document.getElementById("header");
+    const pageTitle = document.title;
+    const navlinks = document.querySelectorAll(".navbar-nav li a");
+    console.log(navlinks);
 
+    // Replace 'Home' with the title of your home page
+    const isHomePage = pageTitle === "Home";
+
+    if (isHomePage) {
+      header.style.backgroundColor = "transparent";
+      $(".navbar-toggler").on("click", function () {
+        $(".navbar").toggleClass("bg-dark");
+      });
+    } else {
+      header.style.backgroundColor = "white";
+      // Loop through each navlink and set the color to black
+      navlinks.forEach((link) => {
+        link.style.color = "black";
+      });
+    }
+  }
+
+  // Call the function when the page loads
+  window.onload = setHeaderColor;
+
+  // homepage mobile nav toggle
+
+  // gallery slider is here
   $("#gallery_slider1").slick({
     dots: false,
     autoplay: true,
