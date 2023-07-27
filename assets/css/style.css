@@ -115,9 +115,11 @@ button {
 .yellow-bg {
     background-color: var(--yellow);
 }
+
 .purple-bg {
     background-color: var(--purple);
 }
+
 .red-bg {
     background-color: var(--red);
 }
@@ -158,6 +160,7 @@ header {
 .navbar-nav li a {
     color: var(--white);
     font-size: 20px;
+    position: relative;
 }
 
 .navbar-nav li a:hover,
@@ -168,7 +171,6 @@ header {
 .navbar-nav .active {
     color: var(--purple);
     /* border-bottom: 2ps solid var(--purple); */
-
 }
 
 .navbar-toggler:focus,
