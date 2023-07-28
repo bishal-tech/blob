@@ -324,6 +324,10 @@ header {
     margin: 0;
 }
 
+.review-btn div small {
+    color: var(--grey);
+}
+
 /* Contact section is here */
 
 .contact-form {
@@ -369,8 +373,9 @@ header {
     background-color: #b0b0b0;
     color: var(--white) !important;
 }
+
 .scribe-box form input:focus {
-  box-shadow: none;
+    box-shadow: none;
     background-color: #b0b0b0;
 }
 
@@ -391,9 +396,10 @@ header {
 
 /* Footer section is here */
 
-footer{
+footer {
     background-color: #ededed;
 }
+
 footer h3 {
     color: var(--dark);
 }
