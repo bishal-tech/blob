@@ -322,6 +322,34 @@ header {
     color: gold;
 }
 
+.scrollable-container {
+    height: 20rem;
+    /* width: 50rem; */
+    overflow-y: scroll;
+    /* border: 2px solid black; */
+    
+    /* position: relative; */
+}
+.scrollable-container i{
+    /* position: absolute; */
+    bottom: 10px;
+    font-size: 18px;
+    left: 45%;
+}
+
+.scrollable-container::-webkit-scrollbar {
+    display: none;
+}
+
+
+.scrollable-container::-webkit-scrollbar-thumb {
+    background-color: #888;
+}
+
+.scrollable-container::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}
+
 .review-btn {
     display: flex;
     /* justify-content: center; */
