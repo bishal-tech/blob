@@ -212,7 +212,7 @@ header {
 /* Banner secton style start here  */
 .banner-sec {
     margin-top: -110px;
-    min-height: 88vh;
+    min-height: 90vh;
     padding-top: 10rem;
     position: relative;
     color: var(--white);
@@ -224,7 +224,7 @@ header {
     position: absolute;
     top: 0;
     left: 0;
-    height: 100%;
+    height: 90vh;
     width: 100%;
     background-color: var(--dark);
     opacity: 0.5;
@@ -275,7 +275,7 @@ header {
 
 .gallery-slide img {
     border-radius: 30px;
-    max-height: 300px;
+    height: 300px;
     margin: auto;
 }
 
