@@ -171,6 +171,20 @@ header {
 .navbar-nav .active {
     color: var(--purple);
     /* border-bottom: 2ps solid var(--purple); */
+
+    position: relative;
+    display: inline-block;
+}
+
+.navbar-nav li .active::after {
+    content: "";
+    position: absolute;
+    bottom: 6px;
+    left: 0;
+    width: 35%;
+    height: 3px;
+    background-color: var(--purple);
+    border-radius: 30px;
 }
 
 .navbar-toggler:focus,
