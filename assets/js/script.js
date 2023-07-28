@@ -12,7 +12,10 @@ $(document).ready(function () {
     if (isHomePage) {
       header.style.backgroundColor = "transparent";
       $(".navbar-toggler").on("click", function () {
-        $(".navbar").toggleClass("bg-dark");
+        $(".navbar").toggleClass("bg-white");
+        navlinks.forEach((link) => {
+          link.style.color = "black";
+        });
       });
     } else {
       header.style.backgroundColor = "white";

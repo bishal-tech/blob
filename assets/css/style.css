@@ -258,6 +258,7 @@ header {
 .gallery-slide img {
     border-radius: 30px;
     max-height: 300px;
+    margin: auto;
 }
 
 /* Community section style start here  */
@@ -305,7 +306,7 @@ header {
 
 .review-btn {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     gap: 20px;
     width: 310px;
@@ -328,7 +329,9 @@ header {
 .contact-form {
     max-width: 400px;
     margin: auto;
+    margin-top: 6rem;
 }
+
 
 .form-group {
     -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.10);
@@ -356,13 +359,19 @@ header {
     display: flex;
     border-radius: 30px;
     border: 1px solid var(--ligthgrey);
-    background-color: var(--white);
+    background-color: #b0b0b0;
 
 }
 
 .scribe-box form input {
     border-radius: 30px;
     border: none;
+    background-color: #b0b0b0;
+    color: var(--white) !important;
+}
+.scribe-box form input:focus {
+  box-shadow: none;
+    background-color: #b0b0b0;
 }
 
 .scribe-box form button {
@@ -382,6 +391,9 @@ header {
 
 /* Footer section is here */
 
+footer{
+    background-color: #ededed;
+}
 footer h3 {
     color: var(--dark);
 }
