@@ -143,9 +143,7 @@ button {
 }
 
 /* Header style start here  */
-header {
-    z-index: 1;
-}
+
 
 .navbar-nav {
     gap: 20px;
@@ -206,20 +204,20 @@ header {
     color: var(--white) !important;
 }
 
+header {
+    z-index: 1;
+    position: relative;
+}
 
 /* Banner secton style start here  */
 .banner-sec {
     margin-top: -110px;
-    background-image: url(../img/banner.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: var(--white);
-    min-height: 750px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    min-height: 88vh;
+    padding-top: 10rem;
     position: relative;
-    z-index: -3;
+    color: var(--white);
+
+
 }
 
 .overlay {
@@ -234,8 +232,14 @@ header {
 
 }
 
-.banner-content {
-    z-index: 3;
+.banner-img img {
+    position: absolute;
+    z-index: -3;
+    margin-top: -180px;
+    height: 90vh;
+    object-fit: cover;
+    width: 100%;
+
 }
 
 .wave-container::before {
