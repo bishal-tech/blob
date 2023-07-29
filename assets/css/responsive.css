@@ -49,6 +49,12 @@
         font-size: 16px;
     }
     
+    .pricing-slider{
+        margin-left: 0;
+    }   
+    .price-slider-btnbox{
+        display: none;
+    }
    
     
 }

@@ -109,9 +109,18 @@ $(document).ready(function () {
     ],
   });
 
+  // Add custom buttons
+  $(".price-prev").click(function () {
+    $(".pricing-slider").slick("slickPrev");
+  });
+
+  $(".price-next").click(function () {
+    $(".pricing-slider").slick("slickNext");
+  });
+
   $(".pricing-slider").slick({
     dots: false,
-    autoplay: true,
+    autoplay: false,
     infinite: true,
     speed: 200,
     slidesToShow: 4,

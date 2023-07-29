@@ -262,6 +262,11 @@ header {
 }
 
 /* Gallery section style start here  */
+.gallery-sec {
+    width: 100%;
+    overflow-x: scroll;
+}
+
 .gallery-slider-1 {
     display: flex;
     gap: 10px;
@@ -324,14 +329,10 @@ header {
 
 .scrollable-container {
     height: 20rem;
-    /* width: 50rem; */
     overflow-y: scroll;
-    /* border: 2px solid black; */
-    
-    /* position: relative; */
 }
-.scrollable-container i{
-    /* position: absolute; */
+
+.scrollable-container i {
     bottom: 10px;
     font-size: 18px;
     left: 45%;
@@ -509,7 +510,31 @@ footer li a {
 
 
 /* Pricing section start here  */
+.pricing-slider-box {
+    position: relative;
+}
+
+.price-slider-btnbox {
+    position: absolute;
+    top: 165px;
+    left: 50px;
+}
+
+.price-prev,
+.price-next {
+    background-color: var(--white);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: block;
+    margin: 30px 0;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.10);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.10);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.10);
+}
+
 .pricing-slider {
+    /* position: relative; */
     display: flex;
     padding: 30px 10px;
     margin-left: 10%;
@@ -528,31 +553,37 @@ footer li a {
     border-radius: 10px 10px 0 0;
 }
 
-.priceing-slide-active .slick-current img {
-    /* filter: grayscale(0%) !important; */
-}
+
 
 .priceing-slide img {
     border-radius: 10px 10px 0 0;
-    /* max-width: 280px; */
-    /* filter: grayscale(100%); */
+    filter: grayscale(100%);
+}
+
+.priceing-slide img:hover {
+    filter: grayscale(0%);
 }
 
 /* Service Booking steps section start here  */
 .steps-box {
     width: 100%;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 10px;
+    padding: 20px;
+    min-height: 239px;
+    margin-bottom: 15px;
+
     -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.10);
     -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.10);
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.10);
-    border-radius: 10px;
-    padding: 20px;
-    min-height: 302px;
-    margin-bottom: 15px;
 }
 
 .steps-box img {
-    max-width: 200px;
+    max-width: 150px;
+    max-height: 150px;
 }
 
 
@@ -585,6 +616,8 @@ footer li a {
     border-radius: 0 0 20px 20px;
     margin-top: -14px;
     padding-top: 19px;
+    width: 98%;
+    margin-left: 12px;
 }
 
 .accordion-flush .accordion-item .accordion-button {
