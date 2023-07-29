@@ -3,7 +3,8 @@ function setHeaderColor() {
   const header = document.getElementById("header");
   const pageTitle = document.title;
   const navlinks = document.querySelectorAll(".navbar-nav li a");
-  console.log(navlinks);
+  const active = document.querySelector('.active')
+  console.log(active);
 
   // Replace 'Home' with the title of your home page
   const isHomePage = pageTitle === "Home";
@@ -21,6 +22,7 @@ function setHeaderColor() {
     // Loop through each navlink and set the color to black
     navlinks.forEach((link) => {
       link.style.color = "black";
+      active.style.color = "#c070ff";
     });
   }
 }
