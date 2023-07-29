@@ -1,34 +1,34 @@
-$(document).ready(function () {
-  // header color function
-  function setHeaderColor() {
-    const header = document.getElementById("header");
-    const pageTitle = document.title;
-    const navlinks = document.querySelectorAll(".navbar-nav li a");
-    console.log(navlinks);
+// header color function
+function setHeaderColor() {
+  const header = document.getElementById("header");
+  const pageTitle = document.title;
+  const navlinks = document.querySelectorAll(".navbar-nav li a");
+  console.log(navlinks);
 
-    // Replace 'Home' with the title of your home page
-    const isHomePage = pageTitle === "Home";
+  // Replace 'Home' with the title of your home page
+  const isHomePage = pageTitle === "Home";
 
-    if (isHomePage) {
-      header.style.backgroundColor = "transparent";
-      $(".navbar-toggler").on("click", function () {
-        $(".navbar").toggleClass("bg-white");
-        navlinks.forEach((link) => {
-          link.style.color = "black";
-        });
-      });
-    } else {
-      header.style.backgroundColor = "white";
-      // Loop through each navlink and set the color to black
+  if (isHomePage) {
+    header.style.backgroundColor = "transparent";
+    $(".navbar-toggler").on("click", function () {
+      $(".navbar").toggleClass("bg-white");
       navlinks.forEach((link) => {
         link.style.color = "black";
       });
-    }
+    });
+  } else {
+    header.style.backgroundColor = "white";
+    // Loop through each navlink and set the color to black
+    navlinks.forEach((link) => {
+      link.style.color = "black";
+    });
   }
+}
 
-  // Call the function when the page loads
-  window.onload = setHeaderColor;
+// Call the function when the page loads
+window.onload = setHeaderColor;
 
+$(document).ready(function () {
   // homepage mobile nav toggle
 
   // gallery slider is here
