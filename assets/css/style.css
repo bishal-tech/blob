@@ -263,8 +263,8 @@ header {
 
 /* Gallery section style start here  */
 .gallery-sec {
-    width: 100%;
-    overflow-x: scroll;
+    /* width: 100%; */
+    /* overflow-x: scroll; */
 }
 
 .gallery-slider-1 {
