@@ -484,13 +484,14 @@ footer li a {
 
 /* banner section start here  */
 .coworking-servic-box {
-    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.10);
-    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.10);
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.10);
+    -webkit-box-shadow: 0px 0px 15px 0px rgb(0 0 0 / 32%);
+    -moz-box-shadow: 0px 0px 15px 0px rgb(0 0 0 / 32%);
+    box-shadow: 0px 0px 15px 0px rgb(0 0 0 / 32%);
     padding: 20px 20px 0px 20px;
     border-radius: 10px;
     width: 95%;
     margin: auto;
+    text-align: center;
 }
 
 .coworking-service-icon {
@@ -588,8 +589,12 @@ footer li a {
 
 
 /* image slider section is here  */
-.big-gallery-slide {
-    text-align: center;
+.gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
 }
 
 .accordion-flush .accordion-item .accordion-button {
