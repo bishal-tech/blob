@@ -477,6 +477,7 @@ footer li a {
 }
 
 .social-icons {
+    width: 100%;
     margin-top: 20px;
     display: flex;
     align-items: center;
@@ -494,7 +495,6 @@ footer li a {
     transition: all 0.3s linear;
     color: var(--sky);
 }
-
 
 
 /* -------------------------Co-Working Page style is here ----------------------- */

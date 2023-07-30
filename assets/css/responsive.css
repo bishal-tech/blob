@@ -29,8 +29,13 @@
     .coworking-servic-box {
         width: 100%;
     }
-    .cafe-box{
+
+    .cafe-box {
         width: 100%;
+    }
+
+    .mobile-center {
+        text-align: center;
     }
 }
 
@@ -48,10 +53,7 @@
         width: 100%;
     }
 
-    .social-icons {
-        justify-content: start;
-    }
-
+   
     .accordion-body {
         width: 93%;
         margin: auto;
