@@ -53,9 +53,14 @@
         width: 93%;
         margin: auto;
         margin-top: -10px;
-
+    }
+    .founder-sec .row{
+        flex-direction: column-reverse !important;
     }
 
+    .founder-img img{
+        position: relative;
+    }
 }
 
 /* // Medium devices (tablets, less than 992px) */
