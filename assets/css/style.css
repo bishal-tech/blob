@@ -739,9 +739,11 @@ footer li a {
 .studiobox-content h2 {
     margin-top: -20px;
 }
-.studiobox{
+
+.studiobox {
     text-align: end;
 }
+
 .studiobox img {
     margin-bottom: -77px;
     margin-top: -50px;
@@ -752,6 +754,14 @@ footer li a {
 /* Truf page style is here  */
 
 /* About page style is here  */
+.flip-card-slider {
+    /* display: flex;
+    gap: 10px; */
+}
+
+.flip-card-slide {
+    padding: 10px;
+}
 
 .flip-card {
     margin: auto;
