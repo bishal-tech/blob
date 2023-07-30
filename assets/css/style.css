@@ -78,6 +78,23 @@ button {
     border: none;
 }
 
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #D8D8D8 !important;
+    opacity: 1;
+    /* Firefox */
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #D8D8D8 !important;
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #D8D8D8 !important;
+}
+
 /* custom classes is here  */
 
 .red-text {
@@ -380,7 +397,7 @@ header {
 .contact-form {
     max-width: 400px;
     margin: auto;
-    margin-top: 6rem;
+    margin-top: 5rem;
 }
 
 
