@@ -54,12 +54,17 @@
         margin: auto;
         margin-top: -10px;
     }
-    .founder-sec .row{
+
+    .founder-sec .row {
         flex-direction: column-reverse !important;
     }
 
-    .founder-img img{
+    .founder-img img {
         position: relative;
+    }
+
+    .studiobox img {
+        margin-top: 0px;
     }
 }
 

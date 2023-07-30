@@ -679,24 +679,6 @@ footer li a {
     z-index: -2;
 }
 
-.studio-bg {
-    background-image: url(../img/studio.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.cafe-bg {
-    background-image: url(../img/cafe.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.truf-bg {
-    background-image: url(../img/truf.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 .play-btn {
     height: 50px;
     width: 50px;
@@ -737,15 +719,10 @@ footer li a {
 
 .cafe-box {
     width: 80%;
-    height: 400px;
     margin: auto;
     color: var(--white);
     border-radius: 20px;
     padding: 20px;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
 }
 
 .cafe-box h2 {
@@ -753,6 +730,24 @@ footer li a {
 }
 
 /* studio page style is here  */
+.studiobox-content {
+    height: 100%;
+    display: flex;
+    align-items: end;
+}
+
+.studiobox-content h2 {
+    margin-top: -20px;
+}
+.studiobox{
+    text-align: end;
+}
+.studiobox img {
+    margin-bottom: -77px;
+    margin-top: -50px;
+    max-height: 370px;
+}
+
 /* Cafe page style is here  */
 /* Truf page style is here  */
 
