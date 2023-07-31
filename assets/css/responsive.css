@@ -46,15 +46,51 @@
          display: none;
      }
 
-     /* .desktop-none {
-        display: none !important;
-    } */
+     .desktop-none {
+         display: block !important;
+     }
  }
 
 
 
  /* // Small devices (landscape phones, less than 768px) */
  @media (max-width: 767.98px) {
+
+     h1 {
+         font-size: 40px;
+     }
+
+     .review-sec {
+         flex-direction: column;
+     }
+
+     .review-btn {
+         width: 100%;
+     }
+
+
+     .accordion-body {
+         width: 93%;
+         margin: auto;
+         margin-top: -10px;
+     }
+
+     .founder-sec .row {
+         flex-direction: column-reverse !important;
+     }
+
+     .founder-img img {
+         position: relative;
+     }
+
+     .studiobox img {
+         margin-top: 0px;
+     }
+
+ }
+
+ /* // Medium devices (tablets, less than 992px) */
+ @media (max-width: 991.98px) {
 
      .navbar-collapse {
          background-color: #f8f9faf2;
@@ -92,42 +128,6 @@
          right: auto;
          left: 100%;
      }
-
-     h1 {
-         font-size: 40px;
-     }
-
-     .review-sec {
-         flex-direction: column;
-     }
-
-     .review-btn {
-         width: 100%;
-     }
-
-
-     .accordion-body {
-         width: 93%;
-         margin: auto;
-         margin-top: -10px;
-     }
-
-     .founder-sec .row {
-         flex-direction: column-reverse !important;
-     }
-
-     .founder-img img {
-         position: relative;
-     }
-
-     .studiobox img {
-         margin-top: 0px;
-     }
-
- }
-
- /* // Medium devices (tablets, less than 992px) */
- @media (max-width: 991.98px) {
 
      h1 {
          font-size: 60px;

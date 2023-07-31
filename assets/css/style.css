@@ -159,7 +159,11 @@ button {
 
 }
 .desktop-none {
-    display: none;
+    display: none !important;
+}
+.desktop-none a {
+    color: var(--grey);
+    margin: 10px;
 }
 /* Header style start here  */
 
