@@ -1,3 +1,29 @@
+const mobileMenu = document.querySelector(".navbar-collapse");
+
+// Get the toggle button element
+const toggleButton = document.querySelector(".navbar-toggler");
+
+// Function to toggle the mobile menu
+function toggleMobileMenu() {
+  mobileMenu.classList.toggle("show");
+}
+
+// Function to close the mobile menu
+function closeMobileMenu() {
+  mobileMenu.classList.remove("show");
+}
+
+// Event listener for the toggle button
+toggleButton.addEventListener("click", toggleMobileMenu);
+
+// Event listener for clicks outside the menu
+document.addEventListener("click", function (event) {
+  const targetElement = event.target;
+  if (targetElement !== toggleButton && !mobileMenu.contains(targetElement)) {
+    closeMobileMenu();
+  }
+});
+
 // header color function
 function setHeaderColor() {
   const header = document.getElementById("header");

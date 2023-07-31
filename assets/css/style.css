@@ -158,7 +158,9 @@ button {
     transition: all 0.3s linear;
 
 }
-
+.desktop-none {
+    display: none;
+}
 /* Header style start here  */
 
 
