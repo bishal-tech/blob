@@ -305,9 +305,14 @@ header {
     height: 300px;
     border-radius: 50%;
     /* background-color: #007bff; */
-    border: 2px solid var(--grey);
+    border-width: 12px;
+    border-style: solid;
     overflow: hidden;
 }
+
+/* #parent.hovered {
+    border: 2px solid var(--purple);
+} */
 
 .slice {
     position: absolute;
@@ -323,7 +328,7 @@ header {
 }
 
 #slice1:hover {
-    background-color: var(--purple);
+    background-color: var(--yellow);
 }
 
 #slice2 {
@@ -332,7 +337,7 @@ header {
 }
 
 #slice2:hover {
-    background-color: var(--yellow);
+    background-color: var(--purple);
 }
 
 #slice3 {
@@ -341,15 +346,10 @@ header {
 }
 
 #slice3:hover {
-    background-color: var(--red);
+    background-color: var(--sky);
 }
 
 /* Gallery section style start here  */
-.gallery-sec {
-    /* width: 100%; */
-    /* overflow-x: scroll; */
-}
-
 .gallery-slider-1 {
     display: flex;
     gap: 10px;

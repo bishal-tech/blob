@@ -214,3 +214,33 @@ $(document).ready(function () {
     ],
   });
 });
+
+
+
+// Get references to the parent and child elements
+const parent = document.getElementById('parent');
+const child1 = document.getElementById('slice1');
+const child2 = document.getElementById('slice2');
+const child3 = document.getElementById('slice3');
+
+// Add event listeners for mouseenter and mouseleave on the child element
+child1.addEventListener('mouseenter', () => {
+  parent.classList.add('yellow-border');
+});
+child1.addEventListener('mouseleave', () => {
+  parent.classList.remove('yellow-border');
+});
+
+child2.addEventListener('mouseenter', () => {
+  parent.classList.add('purple-border');
+});
+child2.addEventListener('mouseleave', () => {
+  parent.classList.remove('purple-border');
+});
+
+child3.addEventListener('mouseenter', () => {
+  parent.classList.add('sky-border');
+});
+child3.addEventListener('mouseleave', () => {
+  parent.classList.remove('sky-border');
+});
