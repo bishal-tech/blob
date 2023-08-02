@@ -301,13 +301,13 @@ header {
     height: 100%;
     width: 100%;
     position: relative;
-    /* transform: rotate(45deg) */
+    transform: rotate(-75deg)
 }
 
 .circle {
     position: relative;
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
     border-radius: 50%;
     border: 7px solid var(--ligthgrey);
     overflow: hidden;
@@ -315,12 +315,13 @@ header {
 }
 
 .sliceimg {
-    max-width: 47%;
+    max-width: 260px;
+    transform: rotate(75deg)
 }
 
 #slice1img {
     position: absolute;
-    top: -110px;
+    top: 0px;
     z-index: 9;
 }
 
@@ -333,8 +334,8 @@ header {
 
 #slice3img {
     position: absolute;
-    bottom: 71px;
-    right: -75px;
+    bottom: 41px;
+    right: -26px;
     z-index: 9;
 }
 

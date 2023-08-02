@@ -1,15 +1,15 @@
  @media (max-width: 575.98px) {
 
      .banner-sec {
-         min-height: 105vh;
+         min-height: 110vh;
      }
 
      .overlay {
-         height: 105vh;
+         height: 110vh;
      }
 
      .banner-img img {
-         height: 107vh;
+         height: 110vh;
      }
 
      .contact-page-sec {
