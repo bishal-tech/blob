@@ -306,14 +306,9 @@ header {
 
 .circle {
     position: relative;
-    /* width: 500px;
-    height: 500px; */
-    width: calc(100vw - 40vw);
-    height: calc(100vh - 40vh);
+    width: 500px;
+    height: 500px;
     border-radius: 50%;
-    /* background-color: #007bff; */
-    /* border-width: 12px;
-    border-style: solid; */
     border: 7px solid var(--ligthgrey);
     overflow: hidden;
     transition: all 0.2s linear;
