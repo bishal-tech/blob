@@ -141,6 +141,9 @@ button {
     background-color: var(--red);
 }
 
+.sky-bg {
+    background-color: var(--sky);
+}
 
 .cta-btn1 {
     padding: 10px 25px;
@@ -297,12 +300,16 @@ header {
     align-items: center;
     height: 100%;
     width: 100%;
+    position: relative;
+    /* transform: rotate(45deg) */
 }
 
 .circle {
     position: relative;
-    width: 500px;
-    height: 500px;
+    /* width: 500px;
+    height: 500px; */
+    width: calc(100vw - 40vw);
+    height: calc(100vh - 40vh);
     border-radius: 50%;
     /* background-color: #007bff; */
     /* border-width: 12px;
@@ -312,9 +319,31 @@ header {
     transition: all 0.2s linear;
 }
 
-/* #parent.hovered {
-    border: 2px solid var(--purple);
-} */
+.sliceimg {
+    max-width: 50%;
+}
+
+#slice1img {
+    position: absolute;
+    top: -110px;
+    z-index: 9;
+}
+
+#slice2img {
+    position: absolute;
+    bottom: 56px;
+    left: -18px;
+    z-index: 9;
+}
+
+#slice3img {
+    position: absolute;
+    bottom: 71px;
+    right: -75px;
+    z-index: 9;
+}
+
+
 
 .slice {
     position: absolute;
@@ -325,7 +354,6 @@ header {
 }
 
 #slice1 {
-    /* background-color: #f39c12; */
     transform: rotate(0deg);
     transition: all 0.2s linear;
 }
@@ -336,7 +364,6 @@ header {
 }
 
 #slice2 {
-    /* background-color: #e74c3c; */
     transform: rotate(120deg);
     transition: all 0.2s linear;
 }
@@ -347,7 +374,6 @@ header {
 }
 
 #slice3 {
-    /* background-color: #27ae60; */
     transform: rotate(240deg);
     transition: all 0.2s linear;
 }
