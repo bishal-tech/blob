@@ -57,7 +57,7 @@ h3 {
 p {
     font-size: 24px;
     font-weight: 400;
-    line-height: 35px;
+    /* line-height: 35px; */
     letter-spacing: 0em;
 
 }
@@ -618,6 +618,8 @@ footer li a {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    inline-size: 150px;
+    margin: auto;
 }
 
 .coworking-service-icon img {
@@ -955,6 +957,10 @@ footer li a {
 .number-counter {
     text-align: center;
 
+}
+
+.number-counter h2 {
+    font-size: 50px;
 }
 
 .contact-page-sec {

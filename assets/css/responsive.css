@@ -30,6 +30,14 @@
          width: 100%;
      }
 
+     .coworking-service-icon {
+         inline-size: 100px;
+     }
+
+     .coworking-service-icon p {
+         font-size: 11px;
+     }
+
      .cafe-box {
          width: 100%;
      }
@@ -54,8 +62,9 @@
          height: 250px !important;
          width: 250px !important;
      }
-     #slice3img{
-        right: 0;
+
+     #slice3img {
+         right: 0;
      }
  }
 
@@ -65,7 +74,8 @@
  @media (max-width: 767.98px) {
 
      h1 {
-         font-size: 40px;
+         font-size: 40px !important;
+         line-height: 70px;
      }
 
      .review-sec {
@@ -97,7 +107,7 @@
 
      /* animation style in here  */
      .circle {
-         height: 495px ;
+         height: 495px;
      }
 
      #slice1img {
