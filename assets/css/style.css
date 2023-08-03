@@ -577,7 +577,7 @@ footer li a {
     margin-top: 20px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
     gap: 15px;
     font-size: 25px;
 }
