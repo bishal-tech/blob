@@ -146,6 +146,7 @@ $(document).ready(function () {
     $(".pricing-slider").slick("slickNext");
   });
 
+
   $(".pricing-slider").slick({
     dots: false,
     autoplay: false,
@@ -175,6 +176,7 @@ $(document).ready(function () {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
+          dots: true,
         },
       },
     ],
