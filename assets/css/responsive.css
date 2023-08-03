@@ -90,6 +90,12 @@
          display: none;
      }
 
+     .mt-mobile{
+        margin-top: 20px;
+     }
+     .pl-mobile{
+        padding-left: 30px;
+     }
  }
 
  /* // Small devices (landscape phones, less than 768px) */
