@@ -509,14 +509,6 @@ header {
     border: 1px solid #fff !important;
 }
 
-
-.scribe-box {
-    /* padding: 20px 50px;
-    border-radius: 15px;
-    margin-top: -140px;
-    text-align: center; */
-}
-
 .scribe-box form {
     margin: auto;
     width: 100%;
@@ -665,7 +657,7 @@ footer li a {
     height: 12px;
     border-radius: 50%;
     background-color: var(--ligthgrey);
-   margin: 0 1px;
+    margin: 0 1px;
 }
 
 .slick-dots li.slick-active {
@@ -890,11 +882,6 @@ footer li a {
 /* Truf page style is here  */
 
 /* About page style is here  */
-.flip-card-slider {
-    /* display: flex;
-    gap: 10px; */
-}
-
 .flip-card-slide {
     padding: 10px;
 }

@@ -1,0 +1,22 @@
+#slice1img {
+    position: absolute;
+    top: 140px;
+    left: 24px;
+    z-index: 9;
+}
+
+
+#slice2img {
+    position: absolute;
+    bottom: -26px;
+    left: 239px;
+    z-index: 9;
+}
+
+
+#slice3img {
+    position: absolute;
+    bottom: 270px;
+    right: 37px;
+    z-index: 9;
+}
