@@ -84,17 +84,19 @@
      .scrollable-container {
          display: flex;
          height: 108px;
+         width: 335px;
      }
 
      .comu-icon {
          display: none;
      }
 
-     .mt-mobile{
-        margin-top: 20px;
+     .mt-mobile {
+         margin-top: 20px;
      }
-     .pl-mobile{
-        padding-left: 30px;
+
+     .pl-mobile {
+         padding-left: 30px;
      }
  }
 
@@ -111,7 +113,7 @@
      }
 
      .review-btn {
-         width: 100%;
+         width: 235px;
      }
 
 
@@ -220,7 +222,7 @@
          width: 198px;
      }
 
-   
+
  }
 
  /* // Large devices (desktops, less than 1200px) */
