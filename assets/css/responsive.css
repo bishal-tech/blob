@@ -222,6 +222,10 @@
          width: 198px;
      }
 
+     .steps-box img {
+         width: 90px;
+         height: 90px;
+     }
 
  }
 
