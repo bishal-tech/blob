@@ -242,6 +242,10 @@ header {
     position: relative;
 }
 
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
 /* Banner secton style start here  */
 .banner-sec {
     margin-top: -110px;

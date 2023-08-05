@@ -142,6 +142,9 @@
 
  /* // Medium devices (tablets, less than 992px) */
  @media (max-width: 991.98px) {
+     .dropend {
+         margin-left: 10px !important;
+     }
 
      .navbar-collapse {
          background-color: #f8f9faf2;
