@@ -741,8 +741,8 @@ footer li a {
 }
 
 .accordion-item:last-of-type .accordion-button.collapsed {
-    border-bottom-right-radius: 30px !important;
-    border-bottom-left-radius: 30px !important;
+    border-bottom-right-radius: 20px !important;
+    border-bottom-left-radius: 20px !important;
 }
 
 .accordion-item {
