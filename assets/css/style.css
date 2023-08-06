@@ -326,6 +326,7 @@ header {
 #slice1img {
     position: absolute;
     top: 0px;
+    right: 13vw;
     z-index: 9;
 }
 
