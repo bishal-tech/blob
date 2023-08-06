@@ -83,6 +83,11 @@
          width: 95%;
      }
 
+     .circle-div {
+         height: 250px !important;
+         width: 300px !important;
+     }
+
      .circle {
          height: 250px !important;
          width: 250px !important;
@@ -243,6 +248,11 @@
      }
 
      /* animation style in here  */
+     .circle-div {
+         height: 438px;
+         width: 359px;
+     }
+
      .circle {
          height: 300px;
          width: 300px;
