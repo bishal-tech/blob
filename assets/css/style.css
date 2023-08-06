@@ -395,7 +395,7 @@ header {
 
 .gallery-slide img {
     border-radius: 30px;
-    height: 350px;
+    height: 450px;
     margin: auto;
 }
 
@@ -464,6 +464,10 @@ header {
 
 .scrollable-container::-webkit-scrollbar-track {
     background-color: #f1f1f1;
+}
+
+.user-reviews {
+    text-align: center;
 }
 
 .review-btn {
@@ -708,7 +712,7 @@ footer li a {
 .steps-box {
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     /* gap: 20px; */
     border-radius: 10px;
@@ -771,7 +775,7 @@ footer li a {
 
 .accordion-flush .accordion-item .accordion-button {
     border-radius: 20px;
-    padding: 20px;
+    padding: 25px 20px;
 }
 
 
