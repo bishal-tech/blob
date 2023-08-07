@@ -57,6 +57,8 @@ function setHeaderColor() {
 window.onload = setHeaderColor;
 
 $(document).ready(function () {
+  $("#preloader").fadeOut("slow");
+
   // homepage mobile nav toggle
 
   // gallery slider is here
