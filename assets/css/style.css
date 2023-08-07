@@ -398,7 +398,7 @@ header {
 
 .gallery-slide img {
     border-radius: 30px;
-    height: 450px;
+    height: 385px;
     margin: auto;
 }
 
@@ -986,7 +986,7 @@ footer li a {
 
 .contact-page-sec {
     position: relative;
-    margin-top: -25rem;
+    margin-top: -30rem;
     padding: 3rem 0rem 4rem 4rem;
     border-radius: 4px;
 

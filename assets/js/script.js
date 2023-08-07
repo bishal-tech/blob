@@ -151,6 +151,7 @@ $(document).ready(function () {
     dots: false,
     autoplay: false,
     infinite: true,
+    arrows: false,
     speed: 200,
     slidesToShow: 4,
     slidesToScroll: 1,
