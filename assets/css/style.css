@@ -407,6 +407,16 @@ header {
     transition: all 0.2s linear;
 }
 
+.modal-content {
+    border: none;
+    background-color: transparent;
+}
+
+.anim-modal-image img {
+    border-radius: 30px;
+    /* max-width: 400px; */
+}
+
 /* Gallery section style start here  */
 .gallery-slider-1 {
     display: flex;

@@ -30,7 +30,7 @@ function setHeaderColor() {
   const pageTitle = document.title;
   const navlinks = document.querySelectorAll(".navbar-nav li a");
   const active = document.querySelector(".active");
-  console.log(active);
+  // console.log(active);
 
   // Replace 'Home' with the title of your home page
   const isHomePage = pageTitle === "Home";
