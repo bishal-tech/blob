@@ -226,14 +226,18 @@ button {
 }
 
 .dropdown-menu {
-    background-color: #ffffff63;
+    background-color: #00000063;
     border-radius: 10px;
     /* padding: 0 0 0 20px; */
 }
 
+.dropdown-item {
+    color: var(--white) !important;
+}
+
 .dropdown-item:hover {
     border-radius: 10px;
-    background-color: #ffffff63;
+    background-color: #ffffff50;
     color: var(--white) !important;
 }
 
@@ -294,6 +298,13 @@ header {
     .wave-container::before {
         height: 73.5px
     }
+}
+
+
+.main-circle-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .circle-div {
