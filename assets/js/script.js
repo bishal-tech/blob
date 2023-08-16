@@ -236,34 +236,34 @@ const slice2img = document.querySelector('#slice3img');
 const slice3img = document.querySelector('#slice2img');
 
 slice1img.addEventListener('mouseenter', () => {
-  console.log('enter')
+  // console.log('enter')
   child1.classList.add('yellow-bg');
   parent.classList.add('yellow-border');
 });
 slice1img.addEventListener('mouseleave', () => {
-  console.log('out')
+  // console.log('out')
   child1.classList.remove('yellow-bg');
   parent.classList.remove('yellow-border');
 });
 
 slice2img.addEventListener('mouseenter', () => {
-  console.log('enter')
+  // console.log('enter')
   child2.classList.add('purple-bg');
   parent.classList.add('purple-border');
 });
 slice2img.addEventListener('mouseleave', () => {
-  console.log('out')
+  // console.log('out')
   child2.classList.remove('purple-bg');
   parent.classList.remove('purple-border');
 });
 
 slice3img.addEventListener('mouseenter', () => {
-  console.log('enter')
+  // console.log('enter')
   child3.classList.add('sky-bg');
   parent.classList.add('sky-border');
 });
 slice3img.addEventListener('mouseleave', () => {
-  console.log('out')
+  // console.log('out')
   child3.classList.remove('sky-bg');
   parent.classList.remove('sky-border');
 });

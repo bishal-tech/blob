@@ -107,7 +107,7 @@
 
 
     <!-- Gallery section starts here  -->
-    <section class="py-5">
+    <section class="container-fluid py-5">
 
         <div id="gallery_slider1" class="gallery-slider-1">
             <div class="gallery-slide">
@@ -175,8 +175,8 @@
                     </div>
                 </div>
                 <div class="col-md-7 col-sm-12 main-circle-div">
-                    <div class="circle-div">
 
+                    <div class="circle-div">
                         <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img id="slice1img"
                                 class="img-fluid sliceimg" src="./assets/img/about-sec1.png" alt=""
                                 style="max-width: 200px;">
@@ -198,8 +198,6 @@
                                 <!-- <img class="img-fluid" src="./assets/img/about-sec3.png" alt=""> -->
                             </div>
                         </div>
-
-
                     </div>
 
 
@@ -392,20 +390,22 @@
                 <div class="col-md-6 col-sm-12">
                     <form class="contact-form text-center" action="" method="post">
                         <div class="form-group mb-3">
-                            <!-- <label for="">Name</label> -->
                             <input class="form-control" type="text" placeholder="Enter your name" required>
                         </div>
                         <div class="form-group mb-3">
-                            <!-- <label for="">Mobile</label> -->
                             <input class="form-control" type="text" placeholder="Enter your mobile number">
                         </div>
                         <div class="form-group mb-3">
-                            <!-- <label for="">Email</label> -->
                             <input class="form-control" type="text" placeholder="Enter your email">
                         </div>
                         <div class="form-group mb-3">
-                            <!-- <label for="">Offering</label> -->
-                            <input class="form-control" type="text" placeholder="Offerings">
+                            <!-- <input class="form-control" type="text" placeholder="Offerings"> -->
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Offerings</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
                         </div>
                         <button class="cta-btn1">GET IN TUCH</button>
                     </form>

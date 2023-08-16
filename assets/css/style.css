@@ -320,11 +320,10 @@ header {
 }
 
 .circle-div {
+    margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* height: 100%;
-    width: 100%; */
     height: 550px;
     width: 550px;
     position: relative;
@@ -349,7 +348,7 @@ header {
 #slice1img {
     position: absolute;
     top: 0px;
-    right: 13vw;
+    right: 200px;
     z-index: 9;
 }
 
@@ -549,6 +548,11 @@ header {
 
 .form-group .form-control {
     border: 1px solid #fff !important;
+}
+
+.form-group .form-select {
+    border: 1px solid #fff !important;
+    color: lightgray;
 }
 
 .scribe-box form {
