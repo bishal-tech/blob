@@ -263,56 +263,44 @@ header {
 }
 
 /* Banner secton style start here  */
+
 .banner-sec {
     margin-top: -110px;
-    min-height: 90vh;
+    min-height: 100vh;
     padding-top: 10rem;
     position: relative;
     color: var(--white);
+    overflow: hidden;
 }
 
 .overlay {
     position: absolute;
     top: 0;
     left: 0;
-    height: 90vh;
+    height: 100%;
     width: 100%;
     background-color: var(--dark);
     opacity: 0.5;
     z-index: -2;
-
 }
 
-.banner-img img {
+.desktop-banner-img,
+.mobile-banner-img {
     position: absolute;
-    z-index: -3;
-    margin-top: -180px;
-    height: 90vh;
-    object-fit: cover;
-    width: 100%;
-
-}
-
-.wave-container::before {
-    content: "";
-    width: 100%;
-    height: 147px;
-    position: absolute;
-    bottom: -0.3%;
+    top: 0;
     left: 0;
-    background-size: auto;
-    background-repeat: repeat no-repeat;
-    background-position: 32vw bottom;
-    background-image: url("data:image/svg+xml;utf8,<svg viewBox='0 0 1200  127' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M0 93L50 87C100 82 200 70 300 47C400 25 500 -10 600 2C700 13 800 70 900 93C1000 116 1100 104 1150 99L1200 93V127H1150C1100 127 1000 127 900 127C800 127 700 127 600 127C500 127 400 127 300 127C200 127 100 127 50 127H0V93Z' fill='%23ffffff'/></svg>");
+    height: 100%;
+    width: 100%;
+    z-index: -3;
+}
+.wave{
+    width: 103%;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
 }
 
-@media(max-width:850px) {
-    .wave-container::before {
-        height: 73.5px
-    }
-}
-
-
+/* animation part start here  */
 .main-circle-div {
     display: flex;
     justify-content: center;
@@ -327,7 +315,6 @@ header {
     height: 550px;
     width: 550px;
     position: relative;
-    transform: rotate(-75deg)
 }
 
 .circle {
@@ -338,34 +325,35 @@ header {
     border: 7px solid var(--ligthgrey);
     overflow: hidden;
     transition: all 0.2s linear;
+    transform: rotate(-87deg);
 }
 
 .sliceimg {
     max-width: 260px;
-    transform: rotate(75deg)
+    transform: rotate(0deg);
+    /* background-color: var(--red); */
 }
 
 #slice1img {
     position: absolute;
-    top: 0px;
-    right: 200px;
+    top: 130px;
+    left: 14px;
     z-index: 9;
 }
 
 #slice2img {
     position: absolute;
-    bottom: 56px;
-    left: -18px;
+    bottom: 0;
+    right: 55px;
     z-index: 9;
 }
 
 #slice3img {
     position: absolute;
-    bottom: 41px;
-    right: -26px;
+    top: 35px;
+    right: 50px;
     z-index: 9;
 }
-
 
 
 .slice {

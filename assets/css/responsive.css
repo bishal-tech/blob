@@ -1,7 +1,7 @@
 @media (max-width: 375.98px) {
 
     .scrollable-container {
-        width: 300px !important;
+        width: 285px !important;
     }
 
     .anim-modal-image {
@@ -70,20 +70,8 @@
         width: 100%;
     }
 
-    .mobile-center {
-        text-align: center;
-    }
-
     .mw-50 {
         width: 50%;
-    }
-
-    .mobile-none {
-        display: none;
-    }
-
-    .desktop-none {
-        display: block !important;
     }
 
     .coworking-servic-box {
@@ -113,17 +101,16 @@
     }
 
     #slice1img {
-        top: -40px !important;
+        top: 40px !important;
     }
 
     #slice2img {
-        top: 95px;
-        left: 10px;
+        bottom: -30px;
+        right: 30px;
     }
 
     #slice3img {
-        right: -8px !important;
-        top: 92px !important;
+        top: -36px !important;
     }
 
     .scrollable-container {
@@ -140,6 +127,10 @@
 
     .pl-mobile {
         padding-left: 30px;
+    }
+
+    .mobile-center {
+        text-align: center;
     }
 }
 
@@ -244,6 +235,14 @@
         font-size: 16px;
     }
 
+    .mobile-none {
+        display: none;
+    }
+
+    .desktop-none {
+        display: block !important;
+    }
+
     .pricing-slider {
         margin-left: 0;
     }
@@ -283,9 +282,14 @@
     }
 
     #slice1img {
-        right: 93px;
+        top: 95px;
+        left: -30px;
     }
 
+    #slice3img {
+        top: 25px;
+        right: 0;
+    }
 
 }
 
