@@ -74,6 +74,10 @@
         width: 50%;
     }
 
+    .ipadw-50 {
+        width: 100% !important;
+    }
+
     .coworking-servic-box {
         width: 100% !important;
     }
@@ -169,9 +173,6 @@
         margin-top: 0px;
     }
 
-    /* .inner-banner-img {
-         transform: scale(1.5);
-     } */
 }
 
 /* // Medium devices (tablets, less than 992px) */
@@ -255,6 +256,10 @@
         width: 97%;
         margin: auto;
         margin-top: -10px;
+    }
+
+    .ipadw-50 {
+        width: 50%;
     }
 
     /* animation style in here  */
