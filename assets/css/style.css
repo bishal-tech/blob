@@ -266,7 +266,7 @@ header {
 
 .banner-sec {
     margin-top: -110px;
-    min-height: 90vh;
+    min-height: 100vh;
     padding-top: 10rem;
     position: relative;
     color: var(--white);
@@ -351,7 +351,7 @@ header {
 
 #slice3img {
     position: absolute;
-    top: 35px;
+    top: 14px;
     right: 50px;
     z-index: 9;
 }
@@ -419,7 +419,7 @@ header {
 }
 
 .gallery-slide img {
-    border-radius: 10px;
+    border-radius: 30px;
     height: 385px;
     margin: auto;
 }
@@ -527,6 +527,11 @@ header {
     margin-top: 5rem;
 }
 
+.contact-form select {
+    border: 1px solid var(--ligthgrey) !important;
+    border-radius: 10px;
+    /* color: var(--grey); */
+}
 
 .form-group {
     -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.10);
