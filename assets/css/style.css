@@ -266,11 +266,12 @@ header {
 
 .banner-sec {
     margin-top: -110px;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     padding-top: 10rem;
     position: relative;
     color: var(--white);
     overflow: hidden;
+    padding: 18rem 0 20rem 0;
 }
 
 .overlay {

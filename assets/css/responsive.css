@@ -16,11 +16,7 @@
 @media (max-width: 575.98px) {
 
     .banner-sec {
-        min-height: 107vh;
-    }
-
-    .overlay {
-        height: 107vh;
+        padding: 12rem 0 16rem 0;
     }
 
     .banner-img img {
