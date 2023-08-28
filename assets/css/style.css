@@ -420,7 +420,7 @@ header {
 }
 
 .gallery-slide img {
-    border-radius: 30px;
+    /* border-radius: 30px; */
     height: 385px;
     margin: auto;
 }
