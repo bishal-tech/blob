@@ -139,9 +139,14 @@ $(document).ready(function () {
     autoplay: true,
     infinite: true,
     arrows: false,
-    speed: 300,
     slidesToShow: 4,
     slidesToScroll: 1,
+
+    autoplaySpeed: 0,
+    speed: 4000,
+    cssEase: 'linear',
+
+    variableWidth: true,
     responsive: [
       {
         breakpoint: 1024,
@@ -173,14 +178,20 @@ $(document).ready(function () {
   });
 
   $("#gallery_slider2").slick({
-    dots: false,
+
     rtl: true,
+    dots: false,
     autoplay: true,
-    arrows: false,
     infinite: true,
-    speed: 200,
+    arrows: false,
     slidesToShow: 4,
     slidesToScroll: 1,
+
+    autoplaySpeed: 0,
+    speed: 4000,
+    cssEase: 'linear',
+
+    variableWidth: true,
     responsive: [
       {
         breakpoint: 1024,

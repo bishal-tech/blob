@@ -422,7 +422,6 @@ header {
 
 .gallery-slide img {
     border-radius: 30px;
-    height: 385px;
     margin: auto;
 }
 
@@ -430,7 +429,6 @@ header {
 
 .comunnity {
     height: 100px;
-
     display: flex;
     justify-content: center;
     align-items: center;
