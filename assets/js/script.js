@@ -141,12 +141,10 @@ $(document).ready(function () {
     arrows: false,
     slidesToShow: 4,
     slidesToScroll: 1,
-
-    autoplaySpeed: 0,
-    speed: 4000,
+    autoplaySpeed: 10,
+    speed: 12000,
     cssEase: 'linear',
-
-    variableWidth: true,
+    // variableWidth: true,
     responsive: [
       {
         breakpoint: 1024,
@@ -177,6 +175,7 @@ $(document).ready(function () {
     ],
   });
 
+  
   $("#gallery_slider2").slick({
 
     rtl: true,
@@ -186,12 +185,10 @@ $(document).ready(function () {
     arrows: false,
     slidesToShow: 4,
     slidesToScroll: 1,
-
-    autoplaySpeed: 0,
-    speed: 4000,
+    autoplaySpeed: 10,
+    speed: 12000,
     cssEase: 'linear',
-
-    variableWidth: true,
+    // variableWidth: true,
     responsive: [
       {
         breakpoint: 1024,
