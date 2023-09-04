@@ -422,6 +422,7 @@ header {
 
 .gallery-slide img {
     border-radius: 30px;
+    width: 100%;
     margin: auto;
 }
 

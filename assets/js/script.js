@@ -142,7 +142,7 @@ $(document).ready(function () {
     slidesToShow: 4,
     slidesToScroll: 1,
     autoplaySpeed: 10,
-    speed: 12000,
+    speed: 15000,
     cssEase: 'linear',
     // variableWidth: true,
     responsive: [
@@ -186,7 +186,7 @@ $(document).ready(function () {
     slidesToShow: 4,
     slidesToScroll: 1,
     autoplaySpeed: 10,
-    speed: 12000,
+    speed: 15000,
     cssEase: 'linear',
     // variableWidth: true,
     responsive: [
