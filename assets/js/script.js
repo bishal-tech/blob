@@ -30,36 +30,6 @@ $(document).ready(function () {
   }
   toggleAction();
 
-  // header color function
-  function setHeaderColor() {
-    const header = document.getElementById("header");
-    // const pageTitle = document.title;
-    const navlinks = document.querySelectorAll(".navbar-nav li a");
-    const active = document.querySelector(".active");
-    // console.log(active);
-
-    // Replace 'Home' with the title of your home page
-    // const isHomePage = pageTitle === "Blob: Home";
-
-    if (isHomePage) {
-      header.style.backgroundColor = "transparent";
-      $(".navbar-toggler").on("click", function () {
-        $(".navbar-collapse").toggleClass("bg-white");
-        navlinks.forEach((link) => {
-          link.style.color = "black";
-        });
-      });
-    } else {
-      header.style.backgroundColor = "white";
-      // Loop through each navlink and set the color to black
-      navlinks.forEach((link) => {
-        link.style.color = "black";
-        active.style.color = "#c070ff";
-      });
-    }
-  }
-  window.onload = setHeaderColor;
-
   // animation functio is here 
   if (isHomePage) {
     function homeAnimation() {

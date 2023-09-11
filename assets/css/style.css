@@ -262,6 +262,11 @@ header {
     display: block;
 }
 
+
+.otherpage-nav .navbar-nav .nav-item a {
+    color: #000;
+}
+
 /* Banner secton style start here  */
 
 .banner-sec {
