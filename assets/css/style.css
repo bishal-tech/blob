@@ -208,14 +208,13 @@ button {
 }
 
 .navbar-nav .active {
-    color: var(--purple);
+    color: var(--purple) !important;
     /* border-bottom: 2ps solid var(--purple); */
-
     position: relative;
     display: inline-block;
 }
 
-.navbar-nav li .active::after {
+.navbar-nav li .active::before {
     content: "";
     position: absolute;
     bottom: 6px;
@@ -779,6 +778,10 @@ footer li a {
     align-items: center;
     gap: 10px;
     margin-bottom: 10px;
+}
+
+.gallery img {
+    border-radius: 20px;
 }
 
 .accordion-flush .accordion-item .accordion-button {
