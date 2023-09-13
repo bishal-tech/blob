@@ -169,6 +169,9 @@
         margin-top: 0px;
     }
 
+    .yt-video iframe {
+        height: 250px;
+    }
 }
 
 /* // Medium devices (tablets, less than 992px) */

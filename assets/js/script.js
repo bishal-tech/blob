@@ -145,7 +145,7 @@ $(document).ready(function () {
     ],
   });
 
-  
+
   $("#gallery_slider2").slick({
 
     rtl: true,
@@ -273,4 +273,18 @@ $(document).ready(function () {
 });
 
 
+function toggleFlip() {
+  var cardInner = this.querySelector('.flip-card-inner');
+  if (cardInner.style.transform === 'rotateY(180deg)') {
+    cardInner.style.transform = 'rotateY(0deg)';
+  } else {
+    cardInner.style.transform = 'rotateY(180deg)';
+  }
+}
+
+// Add an event listener to the flip card for click events
+var flipCards = document.querySelectorAll('.flip-card');
+flipCards.forEach(function (flipCard) {
+  flipCard.addEventListener('click', toggleFlip);
+});
 
