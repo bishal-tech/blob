@@ -146,6 +146,7 @@ button {
 }
 
 .cta-btn1 {
+    font-size: 20px;
     padding: 10px 25px;
     border-radius: 20px;
     background-color: var(--yellow);
@@ -539,9 +540,9 @@ header {
 }
 
 .form-group {
-    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.10);
-    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.10);
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.10);
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
     padding: 10px;
     border-radius: 10px;
 }
@@ -944,6 +945,16 @@ footer li a {
 /* Truf page style is here  */
 
 /* About page style is here  */
+.banner-about-sec{
+    padding:  1rem;
+}
+.about-heading{
+    font-size: 75px;
+    text-transform: uppercase;
+    color: var(--white);
+    font-weight: 900;
+}
+
 .flip-card-slide {
     padding: 10px;
 }
@@ -1004,7 +1015,7 @@ footer li a {
 
 
 .founder-sec {
-    margin-top: -10rem;
+    margin-top: 25px;
     border-top-right-radius: 10rem;
 }
 
