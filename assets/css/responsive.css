@@ -11,6 +11,9 @@
     .anim-modal-image img {
         width: 250px;
     }
+    .facilites-box p {
+       font-size: 12px;
+    }
 }
 
 @media (max-width: 575.98px) {
