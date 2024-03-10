@@ -294,8 +294,11 @@ flipCards.forEach(function (flipCard) {
 function submitFrom() {
   let afterSybmitSec = document.querySelector('#after-submit');
   let seatsFrom = document.querySelector('#seat-from');
+  let cwbannerSec = document.querySelector('.cwbanner-sec');
+
   afterSybmitSec.style.display = 'block';
   seatsFrom.style.display = 'none';
-  
+  cwbannerSec.style.opacity = 0;
+
   event.preventDefault();
 }

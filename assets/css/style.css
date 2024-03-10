@@ -1108,7 +1108,7 @@ footer li a {
 .banner-bg {
     position: relative;
     padding-top: 200px;
-    padding-bottom: 70px;
+    padding-bottom: 150px;
 }
 
 .banner-bg .banner-bgimg {
@@ -1154,9 +1154,11 @@ footer li a {
 }
 
 .seats-from input {
+    max-width: 550px;
+    margin: auto;
     border-radius: 30px;
-    padding: 6px 30px;
-    border: 2px solid #fff;
+    padding: 10px 30px;
+    border: 1px solid #fff;
     background: #ffffff1c;
 }
 
@@ -1173,8 +1175,20 @@ footer li a {
 
 .coworking-servic-box2 {
     position: absolute;
-    bottom: -10%;
+    border-radius: 30px;
+    width: 93%;
+    padding: 25px 20px;
+    bottom: -15%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
+}
+
+.coworking-servic-box2 .coworking-service-icon img {
+    max-width: 50px;
+}
+
+.coworking-servic-box2 .coworking-service-icon p {
+    font-size: 18px;
+    font-weight: 500;
 }
