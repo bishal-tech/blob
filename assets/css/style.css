@@ -97,6 +97,18 @@ button {
 
 /* custom classes is here  */
 
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
 .red-text {
     color: var(--red);
 }
@@ -115,6 +127,10 @@ button {
 
 .purple-border {
     border: 2px solid var(--purple) !important;
+}
+
+.hidepart {
+    display: none;
 }
 
 .sky-border {
@@ -298,6 +314,10 @@ header {
     height: 100%;
     width: 100%;
     z-index: -3;
+}
+
+.smallhdr {
+    height: 30vh !important;
 }
 
 .wave {
@@ -945,10 +965,11 @@ footer li a {
 /* Truf page style is here  */
 
 /* About page style is here  */
-.banner-about-sec{
-    padding:  1rem;
+.banner-about-sec {
+    padding: 1rem;
 }
-.about-heading{
+
+.about-heading {
     font-size: 75px;
     text-transform: uppercase;
     color: var(--white);
@@ -1081,4 +1102,79 @@ footer li a {
     -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.10);
     -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.10);
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.10);
+}
+
+/* new page code is here  ---------- */
+.banner-bg {
+    position: relative;
+    padding-top: 200px;
+    padding-bottom: 70px;
+}
+
+.banner-bg .banner-bgimg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -2;
+}
+
+.inner-overlay2 {
+    height: 100%;
+    width: 100%;
+    background-color: hsla(0, 0%, 5%, 0.445);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.inner-overlay3 {
+    z-index: 0;
+    background-color: hsl(0deg 0% 0% / 80%);
+}
+
+.bannerbg-content {
+    padding-top: 260px !important;
+}
+
+.co-iocns img {
+    width: 34px;
+    height: 30px;
+}
+
+.map-location iframe {
+    width: 100%;
+    height: 30rem;
+    border-radius: 40px;
+    border: none;
+    border-color: transparent;
+
+}
+
+.seats-from input {
+    border-radius: 30px;
+    padding: 6px 30px;
+    border: 2px solid #fff;
+    background: #ffffff1c;
+}
+
+.submit-msg {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+
+}
+
+.submit-msg h2 {
+    color: #A0FB98;
+}
+
+.coworking-servic-box2 {
+    position: absolute;
+    bottom: -10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
 }

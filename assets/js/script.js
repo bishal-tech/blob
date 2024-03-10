@@ -288,3 +288,14 @@ flipCards.forEach(function (flipCard) {
   flipCard.addEventListener('click', toggleFlip);
 });
 
+
+
+// new page code is here  --------------
+function submitFrom() {
+  let afterSybmitSec = document.querySelector('#after-submit');
+  let seatsFrom = document.querySelector('#seat-from');
+  afterSybmitSec.style.display = 'block';
+  seatsFrom.style.display = 'none';
+  
+  event.preventDefault();
+}

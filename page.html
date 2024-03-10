@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./assets/img/favicon/site.webmanifest">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <title>Blob: Home</title>
+</head>
+
+<body>
+
+    <div id="preloader">
+        <img src="./assets/img/loader.gif" alt="">
+    </div>
+    <!-- Header section starts here  -->
+    <header id="header">
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="./assets/img/lgo.png" alt="BLOB">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <img class="img-fluid" src="./assets/img/toggle-icon.png" alt="">
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end  " id="navbarSupportedContent">
+
+                    <ul class="navbar-nav ">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="workspace.html">Work-Space</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Offering
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                                <li class="nav-item dropend">
+                                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown"
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Co-Working
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                                        <li><a class="dropdown-item" href="">Kolkata </a></li>
+                                        <li><a class="dropdown-item" href="">Bangalore </a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a class="dropdown-item" href="studio.html">Studio</a></li>
+                                <li><a class="dropdown-item" href="cafe.html">Cafe</a></li>
+                                <li><a class="dropdown-item" href="truf.html">Turf</a></li>
+
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                    <!-- <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form> -->
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Workspace Banner section start here  -->
+
+    <section class="banner-bg" style="margin-top: -110px;">
+
+        <img class="banner-bgimg" src="./assets/img/office-chair.jpg" alt="">
+        <div class="inner-overlay2"></div>
+
+        <!-- from submit msg  -->
+        <div id="after-submit" style="display: none;">
+            <div class="inner-overlay2 inner-overlay3 "></div>
+            <div class="submit-msg text-center text-white">
+                <img class="img-fluid" src="./assets/img/submit.png" alt="">
+                <h2>Thank you for submiting the form !</h2>
+                <p>We will get in tuch with you shortly</p>
+            </div>
+        </div>
+        <!-- from submit msg  end-->
+
+        <div class="container mb-5 ">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <div class="cwbanner-sec text-white">
+                        <div class="text-capitalize">
+                            <h2 class="text-white" style="font-size: 70px;">More than <br>
+                                Co working </h2>
+                            <p> Discover your ideal coworking today !</p>
+                        </div>
+                        <div style="margin-top: 7rem;">
+                            <div class="d-flex gap-3">
+                                <div class="d-flex gap-2 co-iocns">
+                                    <img class="img-fluid" src="./assets/img/building.png" alt="">
+                                    <p>35+ Companies</p>
+                                </div>
+                                <div class="d-flex gap-2 co-iocns">
+                                    <img class="img-fluid" src="./assets/img/user.png" alt="">
+                                    <p>50+ Freelancers</p>
+                                </div>
+                            </div>
+
+                            <p class="text-capitalize yellow-text">Finding their perfect workspace At Blob!</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <div class="text-center">
+                        <form id="seat-from" class="seats-from" action="">
+                            <p class="text-white">Fill Up The Form!</p>
+                            <input class="form-control mb-2" type="text" name="" id="" placeholder="Enter your name">
+                            <input class="form-control mb-2" type="text" name="" id=""
+                                placeholder="Enter Mobile number">
+                            <input class="form-control mb-2" type="text" name="" id="" placeholder="Enter email">
+                            <input class="form-control mb-2" type="text" name="" id="" placeholder="Company name">
+                            <input class="form-control mb-2" type="text" name="" id=""
+                                placeholder="Number of seats required">
+                            <input class="form-control mb-2" type="text" name="" id="" placeholder="Pin code">
+                            <button class="cta-btn1" onclick="submitFrom()" type="submit">enquire now</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row coworking-servic-box coworking-servic-box2 bg-white">
+                <div class="col-4 col-md-2">
+                    <div class="coworking-service-icon">
+                        <img class="img-fluid" src="./assets/img/coworking/meeting.png" alt="">
+                        <p>Networking</p>
+                    </div>
+                </div>
+                <div class="col-4 col-md-3">
+                    <div class="coworking-service-icon">
+                        <img class="img-fluid" src="./assets/img/coworking/internet.png" alt="">
+                        <p>High Speed Internet</p>
+                    </div>
+                </div>
+                <div class="col-4 col-md-2">
+                    <div class="coworking-service-icon">
+                        <img class="img-fluid" src="./assets/img/coworking/printer.png" alt="">
+                        <p>Parking Available</p>
+                    </div>
+                </div>
+                <div class="col col-md-3">
+                    <div class="coworking-service-icon">
+                        <img class="img-fluid" src="./assets/img/coworking/coffee.png" alt="">
+                        <p>Free Printing</p>
+                    </div>
+                </div>
+                <div class="col col-md-2">
+                    <div class="coworking-service-icon">
+                        <img class="img-fluid" src="./assets/img/coworking/sleeping.png" alt="">
+                        <p>Nap Room</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing section start here  -->
+    <section>
+        <div class="container-fluid py-5">
+            <div class="text-center mt-5">
+                <h2>Discover the Difference</h2>
+                <p>Why Blob is Your Ultimate Choice</p>
+            </div>
+            <div class="pricing-slider-box">
+                <div class="price-slider-btnbox">
+                    <button class="price-prev"><img src="./assets/img/prev.png" alt=""></button>
+                    <button class="price-next"><img src="./assets/img/next.png" alt=""></button>
+                </div>
+
+                <div class="pricing-slider">
+                    <div class="priceing-slide">
+                        <img class="img-fluid" src="./assets/img/coworking/Rectangle 5.png" alt="">
+                        <div class="text-center p-2">
+                            <h3 class="purplr-text">Dedicated Desk</h3>
+                            <p>INR 6000/-</p>
+                        </div>
+                    </div>
+                    <div class="priceing-slide priceing-slide-active">
+                        <img class="img-fluid" src="./assets/img/coworking/Rectangle 88.png" alt="">
+                        <div class="text-center p-2">
+                            <h3 class="yellow-text">Flexi Desk</h3>
+                            <p>INR 5000/-</p>
+                        </div>
+                    </div>
+                    <div class="priceing-slide priceing-slide-active">
+                        <img class="img-fluid" src="./assets/img/coworking/Rectangle 84.png" alt="">
+                        <div class="text-center p-2">
+                            <h3 class="red-text">Day pass </h3>
+                            <p>INR 500/-</p>
+                        </div>
+                    </div>
+                    <div class="priceing-slide priceing-slide-active">
+                        <img class="img-fluid" src="./assets/img/coworking/Rectangle 84.png" alt="">
+                        <div class="text-center p-2">
+                            <h3 class="purplr-text">Dedicated Desk</h3>
+                            <p>INR 6000/-</p>
+                        </div>
+                    </div>
+                    <div class="priceing-slide priceing-slide-active">
+                        <img class="img-fluid" src="./assets/img/coworking/Rectangle 87.png" alt="">
+                        <div class="text-center p-2">
+                            <h3 class="yellow-text">Dedicated Desk</h3>
+                            <p>INR 6000/-</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery section starts here  -->
+    <section class="container-fluid py-5">
+
+        <div id="gallery_slider1" class="gallery-slider-1">
+            <div class="gallery-slide">
+                <img class="img-fluid" src="./assets/img/gallery/sliderimg-1.png" alt="">
+            </div>
+            <div class="gallery-slide">
+                <img class="img-fluid" src="./assets/img/gallery/sliderimg-2.png" alt="">
+            </div>
+            <div class="gallery-slide">
+                <img class="img-fluid" src="./assets/img/gallery/sliderimg-3.png" alt="">
+            </div>
+            <div class="gallery-slide">
+                <img class="img-fluid" src="./assets/img/gallery/sliderimg-4.png" alt="">
+            </div>
+            <div class="gallery-slide">
+                <img class="img-fluid" src="./assets/img/gallery/sliderimg-5.png" alt="">
+            </div>
+            <div class="gallery-slide">
+                <img class="img-fluid" src="./assets/img/gallery/sliderimg-6.png" alt="">
+            </div>
+            <div class="gallery-slide">
+                <img class="img-fluid" src="./assets/img/gallery/sliderimg-7.png" alt="">
+            </div>
+            <div class="gallery-slide">
+                <img class="img-fluid" src="./assets/img/gallery/sliderimg-8.png" alt="">
+            </div>
+        </div>
+        <div id="gallery_slider2" class="gallery-slider-1" dir="rtl">
+
+            <div class="gallery-slide">
+                <img class="img-fluid" src="./assets/img/gallery/sliderimg-9.png" alt="">
+            </div>
+            <div class="gallery-slide">
+                <img class="img-fluid" src="./assets/img/gallery/sliderimg-10.png" alt="">
+            </div>
+            <div class="gallery-slide">
+                <img class="img-fluid" src="./assets/img/gallery/sliderimg-11.png" alt="">
+            </div>
+            <div class="gallery-slide">
+                <img class="img-fluid" src="./assets/img/gallery/sliderimg-12.png" alt="">
+            </div>
+            <div class="gallery-slide">
+                <img class="img-fluid" src="./assets/img/gallery/sliderimg-13.png" alt="">
+            </div>
+            <div class="gallery-slide">
+                <img class="img-fluid" src="./assets/img/gallery/sliderimg-14.png" alt="">
+            </div>
+            <div class="gallery-slide">
+                <img class="img-fluid" src="./assets/img/gallery/sliderimg-15.png" alt="">
+            </div>
+            <div class="gallery-slide">
+                <img class="img-fluid" src="./assets/img/gallery/sliderimg-16.png" alt="">
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+    <!-- community word section is here  -->
+    <section>
+        <div class="container py-5">
+            <h2 class="text-center">Testimonial</span></h2>
+            <div class="review-sec d-flex align-items-start py-5">
+
+                <div class="user-reviews">
+                    <div class="scrollable-container">
+                        <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist"
+                            aria-orientation="vertical">
+                            <button class="nav-link active mb-3" data-bs-toggle="pill" data-bs-target="#review1">
+                                <div class="review-btn">
+                                    <img src="./assets/img/community/Ellipse 5.png" alt="">
+                                    <div class="text-start">
+                                        <p>Durgesh Sharda</p>
+                                        <small>Company name</small>
+                                    </div>
+
+                                </div>
+                            </button>
+
+                            <button class="nav-link  mb-3" data-bs-toggle="pill" data-bs-target="#review4">
+                                <div class="review-btn">
+                                    <img src="./assets/img/community/Ellipse 5.png" alt="">
+                                    <div class="text-start">
+                                        <p>Durgesh Sharda</p>
+                                        <small>Company name</small>
+                                    </div>
+
+                                </div>
+                            </button>
+
+                            <button class="nav-link  mb-3" data-bs-toggle="pill" data-bs-target="#review2">
+                                <div class="review-btn">
+                                    <img src="./assets/img/community/Ellipse 6.png" alt="">
+                                    <div class="text-start">
+                                        <p>Person Name</p>
+                                        <small>Company name</small>
+                                    </div>
+
+                                </div>
+                            </button>
+
+                            <button class="nav-link  mb-3" data-bs-toggle="pill" data-bs-target="#review3">
+                                <div class="review-btn">
+                                    <img src="./assets/img/community/Ellipse 7.png" alt="">
+                                    <div class="text-start">
+                                        <p>Kshitish Debsharma</p>
+                                        <small>Company name</small>
+                                    </div>
+
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                    <i class="fa-solid fa-angle-down comu-icon"></i>
+                </div>
+
+                <div class="tab-content" id="v-pills-tabContent">
+
+                    <div class="tab-pane fade show active" id="review1">
+                        <h3> Blob has been a blessing in disguise for my team and me</h3>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <p> We love the atmosphere here and take full advantage of their services, especially the turf.
+                            We also have a lot of opportunities to network with other people and grow our brand.</p>
+                    </div>
+
+                    <div class="tab-pane fade" id="review2">
+                        <h3> review 2 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus sapiente porro
+                            in!</h3>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <p> review 1 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, neque officiis.
+                            Vel aliquam
+                            minima animi laboriosam at suscipit repellat tempore ratione maiores quis!</p>
+                    </div>
+
+                    <div class="tab-pane fade" id="review3">
+                        <h3> review 3 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus sapiente porro
+                            in!</h3>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <p> review 1 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, neque officiis.
+                            Vel aliquam
+                            minima animi laboriosam at suscipit repellat tempore ratione maiores quis!</p>
+                    </div>
+
+                    <div class="tab-pane fade" id="review4">
+                        <h3> review 4 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus sapiente porro
+                            in!</h3>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <p> review 1 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, neque officiis.
+                            Vel aliquam
+                            minima animi laboriosam at suscipit repellat tempore ratione maiores quis!</p>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Community section start here  -->
+    <section class="bg-light mt-5">
+        <div class="container py-5">
+            <h2 class="text-center">A Powerfull <span class="red-text">Community</span></h2>
+            <div class="row py-5">
+                <div class="col-4 col-sm-4 col-lg-2">
+                    <div class="comunnity">
+                        <img class="img-fluid" src="./assets/img/community/Rectangle 22.png" alt="">
+                    </div>
+                </div>
+                <div class="col-4 col-sm-4 col-lg-2">
+                    <div class="comunnity">
+                        <img class="img-fluid" src="./assets/img/community/Rectangle 23.png" alt="">
+                    </div>
+                </div>
+                <div class="col-4 col-sm-4 col-lg-2">
+                    <div class="comunnity">
+                        <img class="img-fluid" src="./assets/img/community/Rectangle 24.png" alt="">
+                    </div>
+                </div>
+                <div class="col-4 col-sm-4 col-lg-2">
+                    <div class="comunnity">
+                        <img class="img-fluid" src="./assets/img/community/Rectangle 25.png" alt="">
+                    </div>
+                </div>
+                <div class="col-4 col-sm-4 col-lg-2">
+                    <div class="comunnity">
+                        <img class="img-fluid" src="./assets/img/community/Rectangle 26.png" alt="">
+                    </div>
+                </div>
+                <div class="col-4 col-sm-4 col-lg-2">
+                    <div class="comunnity">
+                        <img class="img-fluid" src="./assets/img/community/Rectangle 27.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </section>
+
+    <section>
+        <div class="container py-5">
+
+            <div class="map-location">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14416.397065574285!2d88.5102001!3d25.4014876!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fb47bffc203d01%3A0x5e87f9b37425bf4c!2sBishal%20Tech%20Academy%20%7C%20Dakshin%20Dinajpur&#39;s%20Most%20Advance%20Computer%20Training%20center!5e0!3m2!1sen!2sin!4v1709909034682!5m2!1sen!2sin"
+                    width="" height="" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FAQ  section start here  -->
+    <section>
+        <div class="container">
+            <div class="text-center ">
+                <h2 class="">Frequently Asked Question </h2>
+            </div>
+
+            <!-- F.A.Q List 1 -->
+            <div class="accordion accordion-flush py-3" id="faqlist1">
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#faq-content-1">
+                            What is co working?
+                        </button>
+                    </h2>
+                    <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
+                        <div class="accordion-body">
+                            Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet
+                            non curabitur
+                            gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#faq-content-2">
+                            What is co working?
+                        </button>
+                    </h2>
+                    <div id="faq-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
+                        <div class="accordion-body">
+                            Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum
+                            velit laoreet id
+                            donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est
+                            pellentesque
+                            elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt
+                            dui.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#faq-content-3">
+                            What is co working?
+                        </button>
+                    </h2>
+                    <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
+                        <div class="accordion-body">
+                            Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum
+                            velit laoreet id
+                            donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est
+                            pellentesque
+                            elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt
+                            dui.
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="text-center my-4">
+                <a class="cta-btn1" href="#">GET QUOTE</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer section start here  -->
+    <footer class="">
+        <div class="container py-5">
+
+            <div class="row">
+                <div class="col-md-2 col-sm-12">
+                    <div class="mobile-center mb-5">
+                        <img class="img-fluid" src="./assets/img/lgo.png" alt="">
+                        <div class="social-icons mobile-none">
+                            <a href="#"><img class="img-fluid" src="./assets/img/insta.png" alt="blob"></a>
+                            <a href="#"><img class="img-fluid" src="./assets/img/linkedin.png" alt="blob"></a>
+                            <a href="#"><img class="img-fluid" src="./assets/img/fb.png" alt="blob"></a>
+                            <!-- <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"> <i class="fa-brands fa-linkedin"></i></a> -->
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-2 col-sm-12 mobile-none">
+                    <h3 class="text-info">Ouick Links</h3>
+                    <ul>
+                        <li><a href="#">Career </a> </li>
+                        <li><a href="#"> Privacy Polices</a> </li>
+                        <li><a href="#"> T&C</a> </li>
+                    </ul>
+                </div>
+                <div class="col-md-2 col-sm-6 mw-50 pl-mobile">
+                    <h3 class="text-info">Offering</h3>
+                    <ul>
+                        <li><a href="#">Co-working </a> </li>
+                        <li><a href="#"> Studio</a> </li>
+                        <li><a href="#"> Cafe</a> </li>
+                        <li><a href="#"> Turf</a> </li>
+                    </ul>
+                </div>
+                <div class="col-md-2 col-sm-6 mw-50">
+                    <h3 class="text-info">Partnership</h3>
+                    <ul>
+                        <li><a href="#">Career </a> </li>
+                        <li><a href="#"> Privacy Polices</a> </li>
+                        <li><a href="#"> T&C</a> </li>
+                    </ul>
+                </div>
+                <div class="col-md-4 col-sm-12 ipadw-50">
+
+                    <div class="mobile-center">
+                        <div class="scribe-box mb-4">
+                            <h3 class="text-info">Join the <span class="red-">Newslatter</span></h3>
+                            <form class="" action="" method="post">
+                                <input class="form-control" type="email" name="" id="" placeholder="Enter your email"
+                                    required>
+                                <button type="submit">Subscribe</button>
+                            </form>
+                        </div>
+                        <div class="mt-mobile">
+                            <h3 class="text-info">Feel free contact with us</h3>
+                            <small><i class="fa-solid fa-phone purplr-text"></i> 033-68110807 &nbsp; <i
+                                    class="fa-solid fa-envelope red-text"></i>
+                                sales@beatblob.com | beatblood@gmail.com</small>
+                        </div>
+
+                        <div class="mt-mobile">
+                            <small>7th floor, Yamuna Building, 86, Golaghata Road, Kolkata- 700048</small>
+                        </div>
+                        <small class=" desktop-none mt-mobile">
+                            <a href="#">Career </a>
+                            <a href="#"> Privacy Polices</a>
+                            <a href="#"> T&C</a>
+                        </small>
+
+                        <small class="mt-mobile desktop-none">
+                            <a href="#"><img class="img-fluid" src="./assets/img/insta.png" alt="blob"></a>
+                            <a href="#"><img class="img-fluid" src="./assets/img/linkedin.png" alt="blob"></a>
+                            <a href="#"><img class="img-fluid" src="./assets/img/fb.png" alt="blob"></a>
+                        </small>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
