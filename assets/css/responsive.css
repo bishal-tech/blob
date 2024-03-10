@@ -11,8 +11,9 @@
     .anim-modal-image img {
         width: 250px;
     }
+
     .facilites-box p {
-       font-size: 12px;
+        font-size: 12px;
     }
 }
 
@@ -138,6 +139,15 @@
 
     .about-heading {
         font-size: 38px !important;
+    }
+
+
+    .cwbannerH {
+        font-size: 43px;
+    }
+
+    .banner-bg {
+        padding-bottom: 250px;
     }
 }
 

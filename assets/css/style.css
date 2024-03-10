@@ -1117,6 +1117,7 @@ footer li a {
     left: 0;
     height: 100%;
     width: 100%;
+    object-fit: cover;
     z-index: -2;
 }
 
@@ -1137,6 +1138,10 @@ footer li a {
 
 .bannerbg-content {
     padding-top: 260px !important;
+}
+
+.cwbannerH {
+    font-size: 70px;
 }
 
 .co-iocns img {
