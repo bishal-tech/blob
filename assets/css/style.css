@@ -1108,7 +1108,7 @@ footer li a {
 .banner-bg {
     position: relative;
     padding-top: 190px;
-    /* padding-bottom: 130px; */
+    padding-bottom: 130px;
 }
 
 .banner-bg .banner-bgimg {
@@ -1175,8 +1175,9 @@ footer li a {
 }
 
 .coworking-servic-box2 {
-    /* position: absolute; */
-    /* justify-content: center; */
+    margin-top: -70px !important;
+    z-index: 4;
+    position: relative;
     display: flex;
     gap: 20px;
     justify-content: center;
@@ -1186,8 +1187,6 @@ footer li a {
     width: 93%;
     padding: 37px 50px;
     margin: auto;
-    /* left: 50%;
-    transform: translate(-50%, -50%); */
     bottom: -21%;
     -webkit-box-shadow: 0px 0px 15px 0px rgb(0 0 0 / 32%);
     -moz-box-shadow: 0px 0px 15px 0px rgb(0 0 0 / 32%);
