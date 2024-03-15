@@ -114,6 +114,7 @@ $(document).ready(function () {
     autoplaySpeed: 10,
     speed: 15000,
     cssEase: 'linear',
+    pauseOnHover: true,
     // variableWidth: true,
     responsive: [
       {
@@ -145,7 +146,6 @@ $(document).ready(function () {
     ],
   });
 
-
   $("#gallery_slider2").slick({
 
     rtl: true,
@@ -158,6 +158,7 @@ $(document).ready(function () {
     autoplaySpeed: 10,
     speed: 15000,
     cssEase: 'linear',
+    pauseOnHover: true,
     // variableWidth: true,
     responsive: [
       {
