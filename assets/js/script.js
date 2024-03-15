@@ -191,15 +191,15 @@ $(document).ready(function () {
 
   // Add custom buttons
   $(".price-prev").click(function () {
-    $(".pricing-slider").slick("slickPrev");
+    $(".pricingSlider").slick("slickPrev");
   });
 
   $(".price-next").click(function () {
-    $(".pricing-slider").slick("slickNext");
+    $(".pricingSlider").slick("slickNext");
   });
 
 
-  $(".pricing-slider").slick({
+  $(".pricingSlider").slick({
     dots: false,
     autoplay: false,
     infinite: true,

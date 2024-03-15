@@ -738,9 +738,10 @@ footer li a {
     opacity: 0.01;
 }
 
-.pricing-slider {
-    /* position: relative; */
+.pricingSlider {
+    position: relative;
     display: flex;
+    flex-wrap: wrap;
     padding: 30px 10px;
     margin-left: 10%;
 }
