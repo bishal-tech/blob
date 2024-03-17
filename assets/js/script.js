@@ -111,10 +111,13 @@ $(document).ready(function () {
     arrows: false,
     slidesToShow: 4,
     slidesToScroll: 1,
-    autoplaySpeed: 10,
-    speed: 15000,
+    centerMode: false,
+    initialSlide: 1,
+    autoplaySpeed: 0,
+    speed: 4500,
     cssEase: 'linear',
     pauseOnHover: true,
+    pauseOnFocus: false,
     // variableWidth: true,
     responsive: [
       {
@@ -146,6 +149,7 @@ $(document).ready(function () {
     ],
   });
 
+
   $("#gallery_slider2").slick({
 
     rtl: true,
@@ -155,10 +159,13 @@ $(document).ready(function () {
     arrows: false,
     slidesToShow: 4,
     slidesToScroll: 1,
-    autoplaySpeed: 10,
-    speed: 15000,
+    centerMode: false,
+    initialSlide: 1,
+    autoplaySpeed: 0,
+    speed: 4500,
     cssEase: 'linear',
     pauseOnHover: true,
+    pauseOnFocus: false,
     // variableWidth: true,
     responsive: [
       {
@@ -191,7 +198,7 @@ $(document).ready(function () {
   });
 
   // Add custom buttons
-  $(".price-prev").click(function () {
+   $(".price-prev").click(function () {
     $(".pricingSlider").slick("slickPrev");
   });
 
@@ -240,8 +247,9 @@ $(document).ready(function () {
   $(".flip-card-slider").slick({
     dots: false,
     autoplay: true,
+    autoplaySpeed: 500,
     infinite: true,
-    speed: 200,
+    speed: 300,
     slidesToShow: 3,
     slidesToScroll: 1,
     responsive: [
@@ -289,17 +297,3 @@ flipCards.forEach(function (flipCard) {
   flipCard.addEventListener('click', toggleFlip);
 });
 
-
-
-// new page code is here  --------------
-function submitFrom() {
-  let afterSybmitSec = document.querySelector('#after-submit');
-  let seatsFrom = document.querySelector('#seat-from');
-  let cwbannerSec = document.querySelector('.cwbanner-sec');
-
-  afterSybmitSec.style.display = 'block';
-  seatsFrom.style.display = 'none';
-  cwbannerSec.style.opacity = 0;
-
-  event.preventDefault();
-}
