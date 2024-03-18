@@ -1239,19 +1239,38 @@ footer li a {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.featured-box {
     position: absolute;
     top: 0;
     left: 0;
-    display: flex;
     gap: 10px;
 }
+
 
 .featured-box p {
     margin: 0;
 }
+
+.featured-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    gap: 10px;
+    padding: 20px;
+    color: var(--white);
+    width: 100%;
+
+}
+
+.featured-text hr {
+    width: 38%;
+    height: 1px;
+    opacity: 1;
+}
+
+
 
 .blog-hr {
     width: 73%;
@@ -1267,9 +1286,9 @@ footer li a {
 }
 
 .blog {
-    -webkit-box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.5);
-    -moz-box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.5);
-    box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.06);
+    -moz-box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.06);
+    box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.06);
     /* border: 2px solid #000; */
     max-width: 26rem;
     border-radius: 30px;
@@ -1305,7 +1324,7 @@ footer li a {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-
+    border-radius: 42px;
     padding: 5% 4%;
     border-radius: 30px;
     position: relative;
@@ -1328,3 +1347,6 @@ footer li a {
 
 /* single blog is here  */
 
+.blog-thumbnail, .blog-contetnts img{
+    border-radius: 30px;
+}
