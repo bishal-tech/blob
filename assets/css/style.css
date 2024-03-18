@@ -1258,7 +1258,7 @@ footer li a {
     bottom: 0;
     left: 0;
     gap: 10px;
-    padding: 20px;
+    padding: 0px 20px;
     color: var(--white);
     width: 100%;
 
@@ -1337,6 +1337,7 @@ footer li a {
     z-index: -2;
     height: 100%;
     width: 100%;
+    border-radius: 42px;
 }
 
 .buy-room h2 {
@@ -1347,6 +1348,7 @@ footer li a {
 
 /* single blog is here  */
 
-.blog-thumbnail, .blog-contetnts img{
+.blog-thumbnail,
+.blog-contetnts img {
     border-radius: 30px;
 }
