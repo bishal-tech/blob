@@ -1227,6 +1227,7 @@ footer li a {
 /* blog page styleis here  */
 
 .blog-banner h1 {
+    text-transform: capitalize;
     text-align: start;
     font-weight: 500;
     color: var(--dark);
@@ -1276,6 +1277,12 @@ footer li a {
     width: 38%;
     height: 1px;
     opacity: 1;
+    color: var(--grey);
+}
+
+.featured-text h6 {
+    color: var(--grey);
+
 }
 
 
@@ -1291,6 +1298,16 @@ footer li a {
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
+}
+
+.blog-contetnts img {
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+
+.blog-contetnts .row {
+    margin-bottom: 25px;
 }
 
 .blog {
@@ -1330,6 +1347,7 @@ footer li a {
 .blog-link {
     font-weight: 500;
     font-size: 16px;
+    font-style: italic;
 }
 
 .buy-room {
@@ -1360,8 +1378,7 @@ footer li a {
 
 
 /* single blog is here  */
-
-.blog-thumbnail,
-.blog-contetnts img {
-    border-radius: 30px;
+.blog-footer {
+    max-width: 400px;
+    margin: auto;
 }
