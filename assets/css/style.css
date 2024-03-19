@@ -1137,6 +1137,14 @@ footer li a {
     background-color: hsl(0deg 0% 0% / 80%);
 }
 
+.inner-overlay4 {
+    border-radius: 30px;
+    z-index: 0;
+    background: linear-gradient(90deg, #000000 0%, transparent 100%);
+    background: -webkit-linear-gradient(90deg, #000000 0%, transparent 70%);
+    background: -moz-linear-gradient(90deg, #000000 0%, transparent 70%);
+}
+
 .bannerbg-content {
     padding-top: 260px !important;
 }
@@ -1316,6 +1324,11 @@ footer li a {
 }
 
 .blog-title p {
+    font-size: 16px;
+}
+
+.blog-link {
+    font-weight: 500;
     font-size: 16px;
 }
 
