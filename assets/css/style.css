@@ -1382,3 +1382,14 @@ footer li a {
     max-width: 400px;
     margin: auto;
 }
+
+.blog-contetnts .blog2-contents {
+    flex: 0 0 auto;
+}
+
+.pev-nxt-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
