@@ -156,7 +156,7 @@
 
     h1 {
         font-size: 32px !important;
-        line-height: 70px;
+        line-height: 45px;
     }
 
     .review-sec {
@@ -314,6 +314,14 @@
 
     .about-heading {
         font-size: 47px;
+    }
+
+    .blog-hr {
+        width: 25%;
+    }
+
+    .blog-hr2 {
+        display: block;
     }
 
 }
