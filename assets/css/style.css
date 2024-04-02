@@ -689,6 +689,9 @@ footer li a {
 .coworking-service-icon p {
     font-size: 16px;
 }
+.home-link a{
+    color: white;
+}
 
 
 /* Pricing section start here  */
@@ -838,8 +841,7 @@ footer li a {
     width: 98%;
     margin-left: 12px;
 }
-
-.accordion-body p {
+.accordion-body p{
     font-size: 1rem;
     margin-bottom: 7px;
 }
@@ -1298,7 +1300,7 @@ footer li a {
     opacity: 1;
 }
 
-.blog-hr2 {
+.blog-hr2{
     display: none;
 }
 
@@ -1402,4 +1404,8 @@ footer li a {
     align-items: center;
     justify-content: center;
     gap: 10px;
+}
+
+.buy-room-add img{
+    border-radius: 40px;
 }

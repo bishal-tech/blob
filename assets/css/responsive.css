@@ -149,6 +149,10 @@
     .banner-bg {
         /* padding-bottom: 450px; */
     }
+
+    /* .buy-room-add img {
+        border-radius: 1px;
+    } */
 }
 
 /* // Small devices (landscape phones, less than 768px) */
@@ -322,6 +326,15 @@
 
     .blog-hr2 {
         display: block;
+    }
+
+    .buy-room-add img {
+        border-radius: 10px;
+    }
+
+    .buy-room img,
+    .buy-room .inner-overlay2 {
+        border-radius: 10px;
     }
 
 }
